@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe qc ..\..\..\bin\GNU\Debug\libServer.a  CMakeFiles/Server.dir/RCServer.cpp.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ranlib.exe ..\..\..\bin\GNU\Debug\libServer.a

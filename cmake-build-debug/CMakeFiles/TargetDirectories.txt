@@ -1,0 +1,17 @@
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/CommonStruct/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/CommonStruct/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Server/CMakeFiles/Server.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Server/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Server/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Client/CMakeFiles/Client.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Client/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Client/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/rebuild_cache.dir
