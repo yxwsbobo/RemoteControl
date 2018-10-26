@@ -60,15 +60,15 @@ Source/CommonStruct/CMakeFiles/CommonStruct.dir/main.cpp.obj: Source/CommonStruc
 Source/CommonStruct/CMakeFiles/CommonStruct.dir/main.cpp.obj: Source/CommonStruct/CMakeFiles/CommonStruct.dir/includes_CXX.rsp
 Source/CommonStruct/CMakeFiles/CommonStruct.dir/main.cpp.obj: ../Source/CommonStruct/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\KinRemoteControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Source/CommonStruct/CMakeFiles/CommonStruct.dir/main.cpp.obj"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\CommonStruct && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CommonStruct.dir\main.cpp.obj -c D:\ClionProjects\KinRemoteControl\Source\CommonStruct\main.cpp
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\CommonStruct && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CommonStruct.dir\main.cpp.obj -c D:\ClionProjects\KinRemoteControl\Source\CommonStruct\main.cpp
 
 Source/CommonStruct/CMakeFiles/CommonStruct.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CommonStruct.dir/main.cpp.i"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\CommonStruct && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\CommonStruct\main.cpp > CMakeFiles\CommonStruct.dir\main.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\CommonStruct && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\CommonStruct\main.cpp > CMakeFiles\CommonStruct.dir\main.cpp.i
 
 Source/CommonStruct/CMakeFiles/CommonStruct.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CommonStruct.dir/main.cpp.s"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\CommonStruct && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\CommonStruct\main.cpp -o CMakeFiles\CommonStruct.dir\main.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\CommonStruct && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\CommonStruct\main.cpp -o CMakeFiles\CommonStruct.dir\main.cpp.s
 
 # Object files for target CommonStruct
 CommonStruct_OBJECTS = \

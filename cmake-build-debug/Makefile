@@ -174,6 +174,19 @@ ExampleServer/fast:
 	$(MAKE) -f Source\Example\CMakeFiles\ExampleServer.dir\build.make Source/Example/CMakeFiles/ExampleServer.dir/build
 .PHONY : ExampleServer/fast
 
+#=============================================================================
+# Target rules for targets named RCMaster
+
+# Build rule for target.
+RCMaster: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RCMaster
+.PHONY : RCMaster
+
+# fast build rule for target.
+RCMaster/fast:
+	$(MAKE) -f Source\RCMaster\CMakeFiles\RCMaster.dir\build.make Source/RCMaster/CMakeFiles/RCMaster.dir/build
+.PHONY : RCMaster/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -187,6 +200,7 @@ help:
 	@echo ... Client
 	@echo ... ExampleClient
 	@echo ... ExampleServer
+	@echo ... RCMaster
 .PHONY : help
 
 

@@ -60,15 +60,15 @@ Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: Source/Client/CMakeFiles/C
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: Source/Client/CMakeFiles/Client.dir/includes_CXX.rsp
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: ../Source/Client/RCClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\KinRemoteControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Client && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Client.dir\RCClient.cpp.obj -c D:\ClionProjects\KinRemoteControl\Source\Client\RCClient.cpp
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Client && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Client.dir\RCClient.cpp.obj -c D:\ClionProjects\KinRemoteControl\Source\Client\RCClient.cpp
 
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/RCClient.cpp.i"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Client && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\Client\RCClient.cpp > CMakeFiles\Client.dir\RCClient.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Client && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\Client\RCClient.cpp > CMakeFiles\Client.dir\RCClient.cpp.i
 
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/RCClient.cpp.s"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Client && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\Client\RCClient.cpp -o CMakeFiles\Client.dir\RCClient.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Client && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\Client\RCClient.cpp -o CMakeFiles\Client.dir\RCClient.cpp.s
 
 # Object files for target Client
 Client_OBJECTS = \

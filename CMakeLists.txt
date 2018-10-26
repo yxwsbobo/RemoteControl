@@ -13,6 +13,9 @@ find_package(websocketpp)
 find_package(nlohmann)
 find_package(SystemControl)
 
+link_directories(${PROJECT_SOURCE_DIR}/libs)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
 set(KinAllLibs Mswsock Ws2_32 libboost_system-mgw81-mt-x64-1_68 ${KinAllLibs} )
 
 add_subdirectory(Source)

@@ -10,9 +10,19 @@
 #include <websocketpp/client.hpp>
 #include <nlohmann/json.hpp>
 
+
 #define kWarn(a, b, ...) std::cout<<b<<std::endl;
 #define kInfo(a, b, ...) std::cout<<b<<std::endl;
 #define kTrace(...)
+
+KinRemoteControl::RCClient::RCClient() {
+    avdevice_register_all();
+
+    InnerPkg = av_packet_alloc();
+    InnerFrame = av_frame_alloc();
+    TempBuffer = (int *) new char[1024*1024];
+}
+
 
 void KinRemoteControl::RCClient::Connect(const std::string &Uri, uint16_t Port) {
     using MessageType = websocketpp::config::asio_client::message_type::ptr;
@@ -67,11 +77,13 @@ void KinRemoteControl::RCClient::OnConnected(std::weak_ptr<void> hdl) {
     nlohmann::json Msg;
     Msg["type"] = (+RequestType::RegistControlled)._to_string();
 
+    RemoteHdl = hdl;
     Core->send(std::move(hdl), Msg.dump(), websocketpp::frame::opcode::value::text);
 }
 void KinRemoteControl::RCClient::OnClosed(std::weak_ptr<void> hdl) {
 
 }
+
 void KinRemoteControl::RCClient::OnReceive(std::weak_ptr<void> hdl, const std::string &Msg) {
     auto Message = nlohmann::json::parse(Msg);
 
@@ -83,6 +95,16 @@ void KinRemoteControl::RCClient::OnReceive(std::weak_ptr<void> hdl, const std::s
         if (requestType == +RequestType::ControlOrder)
         {
             OnControlOrder(Message["data"]);
+        }
+        else if(requestType == +RequestType::ControlMachine)
+        {
+            int width = Message["data"]["width"];
+            int height = Message["data"]["height"];
+            std::thread(&RCClient::GetAndSendVideo,this,width,height).detach();
+        }
+        else if(requestType == +RequestType::StopControl)
+        {
+            OnStopControl();
         }
     }
     catch (const std::exception &e)
@@ -179,4 +201,204 @@ void KinRemoteControl::RCClient::OnControlOrder(const nlohmann::json &data) {
         ks.vkCode = data["key"];
         SysControl.KeyboardEvent(ks);
     }
+}
+
+
+void KinRemoteControl::RCClient::TestFun() {
+
+//    Core->send(RemoteHdl,&mt,sizeof(mt), websocketpp::frame::opcode::value::binary);
+}
+
+AVCodecContext * GetEncodeCtx(int Width, int Height){
+    auto Encoder = avcodec_find_encoder(AV_CODEC_ID_HEVC);
+    if(!Encoder)
+    {
+        std::cout << "Can't find Encoder" << std::endl;
+        return nullptr;
+    }
+    auto enCtx = avcodec_alloc_context3(Encoder);
+    if(!enCtx)
+    {
+        std::cout << "Can't alloc encoder CodecCtx" << std::endl;
+        return nullptr;
+    }
+
+    enCtx->time_base = (AVRational) {1, 20};
+    enCtx->width = Width;
+    enCtx->height = Height;
+
+
+    enCtx->pix_fmt = AV_PIX_FMT_YUV420P;
+    enCtx->bit_rate = 2000000;
+    enCtx->bit_rate_tolerance = (int) (enCtx->bit_rate / 2);
+
+    av_opt_set(enCtx->priv_data, "preset", "ultrafast", 0);
+    av_opt_set(enCtx->priv_data, "tune", "zerolatency", 0);
+
+    if(avcodec_open2(enCtx, Encoder, nullptr) < 0)
+    {
+        std::cout << "avcodec open failed " << std::endl;
+        return nullptr;
+    }
+    return enCtx;
+}
+
+void KinRemoteControl::RCClient::GetAndSendVideo(int Width, int Height) {
+    Running = true;
+
+    //init input Context
+    if(ScreenCtx != nullptr)
+    {
+        avformat_close_input( &ScreenCtx );
+        ScreenCtx = nullptr;
+    }
+
+    auto format = av_find_input_format( "gdigrab" );
+    if(!format){
+        std::cout<<"av_find_input_format failed"<<std::endl;
+        return;
+    }
+
+    avformat_open_input(&ScreenCtx, "desktop", format, nullptr);
+    if(avformat_find_stream_info( ScreenCtx, nullptr ) < 0){
+        std::cout<<"avformat_find_stream_info failed"<<std::endl;
+        return;
+    }
+
+    //Find Video CodePara
+    AVCodecParameters * ScreenCodepar = nullptr;
+    for( unsigned int i = 0; i < ScreenCtx->nb_streams; i++ )
+    {
+        if( ScreenCtx->streams[ i ]->codecpar->codec_type == AVMEDIA_TYPE_VIDEO )
+        {
+            ScreenCodepar = ScreenCtx->streams[ i ]->codecpar;
+        }
+    }
+
+    if(ScreenCodepar == nullptr){
+        std::cout<<"Find VideoIndex Failed"<<std::endl;
+        return;
+    }
+
+    //Init Decode Context
+    auto Decoder = avcodec_find_decoder( ScreenCodepar->codec_id );
+    if(!Decoder){
+        std::cout<<"Can't find Decoder"<<std::endl;
+        return;
+    }
+    auto DecodeCtx = avcodec_alloc_context3( Decoder );
+    if(!DecodeCtx){
+        std::cout<<"Can't alloc CodecCtx"<<std::endl;
+        return;
+    }
+
+    if(avcodec_open2(DecodeCtx,Decoder,nullptr) < 0){
+        std::cout<<"avcodec open failed"<<std::endl;
+        return;
+    }
+
+    //Init Encode Context
+    auto EncodeCtx = GetEncodeCtx(Width, Height);
+    if(EncodeCtx == nullptr){
+        std::cout<<"GetEncodeCtx Failed"<<std::endl;
+        return;
+    }
+
+    //Init Convert Context
+    AVPixelFormat cvtFmt = AV_PIX_FMT_YUV420P;
+
+    auto swsCtx = sws_getContext(ScreenCodepar->width, ScreenCodepar->height, (AVPixelFormat)ScreenCodepar->format,
+        Width, Height, cvtFmt, SWS_FAST_BILINEAR, nullptr, nullptr, nullptr);
+    if(!swsCtx)
+    {
+        std::cout << "create swsCtx Failed" << std::endl;
+        return;
+    }
+
+    //Init Some Value
+    auto ResultFrame = av_frame_alloc();
+
+    ResultFrame->format = cvtFmt;
+    ResultFrame->width = Width;
+    ResultFrame->height = Height;
+    av_frame_get_buffer(ResultFrame, 32);
+
+    auto pkgSize = av_image_get_buffer_size(cvtFmt, Width, Height, 32);
+    auto Packet = av_packet_alloc();
+    av_new_packet(Packet, pkgSize);
+
+
+//    int tSteps = 0;
+    while(Running)
+    {
+
+        av_packet_unref(InnerPkg);
+
+        av_read_frame(ScreenCtx, InnerPkg);
+//        if(++tSteps % 3 == 0)
+//        {
+//            continue;
+//        }
+
+        if(avcodec_send_packet(DecodeCtx, InnerPkg) != 0)
+        {
+            std::cout << "avcodec_send_packet Failed" << std::endl;
+        }
+
+        av_frame_unref(InnerFrame);
+
+        if(avcodec_receive_frame(DecodeCtx, InnerFrame) != 0)
+        {
+            std::cout << "receive frame failed" << std::endl;
+            return;
+        }
+
+        sws_scale(swsCtx, InnerFrame->data, InnerFrame->linesize, 0, InnerFrame->height, ResultFrame->data, ResultFrame->linesize);
+
+        if(avcodec_send_frame(EncodeCtx, ResultFrame) != 0)
+        {
+            std::cout << "Send frame failed" << std::endl;
+            return;
+        }
+
+        if(avcodec_receive_packet(EncodeCtx, Packet) != 0)
+        {
+            std::cout << "receive pakage failed" << std::endl;
+            return;
+        }
+
+        auto DataSize = Packet->buf->size + 20;
+
+        TempBuffer[0] = (int) SocketType::VideoPacket;
+        TempBuffer[1] = Packet->size;
+        TempBuffer[2] = Packet->flags;
+        memcpy(&TempBuffer[3], Packet->data, Packet->size);
+
+        Core->send(RemoteHdl, TempBuffer, DataSize, websocketpp::frame::opcode::value::binary);
+    }
+
+    if(ScreenCtx != nullptr)
+    {
+        avformat_close_input( &ScreenCtx );
+        ScreenCtx = nullptr;
+    }
+
+    avcodec_free_context(&DecodeCtx);
+    DecodeCtx = nullptr;
+
+    avcodec_free_context(&EncodeCtx);
+    EncodeCtx = nullptr;
+
+    sws_freeContext(swsCtx);
+    swsCtx = nullptr;
+
+    av_frame_unref( ResultFrame );
+    av_frame_free( &ResultFrame );
+
+    av_packet_unref( Packet );
+    av_packet_free( &Packet );
+
+}
+void KinRemoteControl::RCClient::OnStopControl() {
+    Running = false;
 }

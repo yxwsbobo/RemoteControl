@@ -58,7 +58,11 @@ BETTER_ENUM(RequestType, int,
             ListControlled,
             ControlMachine,
             ControlMachineResult,
+            StopControl,
             ControlOrder);
+
+BETTER_ENUM(SocketType,int,
+    VideoPacket);
 
 BETTER_ENUM(ControlType, int,
     MouseMove,

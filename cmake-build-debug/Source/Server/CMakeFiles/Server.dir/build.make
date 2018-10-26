@@ -60,15 +60,15 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj: Source/Server/CMakeFiles/S
 Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj: Source/Server/CMakeFiles/Server.dir/includes_CXX.rsp
 Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj: ../Source/Server/RCServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\KinRemoteControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Server && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Server.dir\RCServer.cpp.obj -c D:\ClionProjects\KinRemoteControl\Source\Server\RCServer.cpp
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Server && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Server.dir\RCServer.cpp.obj -c D:\ClionProjects\KinRemoteControl\Source\Server\RCServer.cpp
 
 Source/Server/CMakeFiles/Server.dir/RCServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/RCServer.cpp.i"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Server && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\Server\RCServer.cpp > CMakeFiles\Server.dir\RCServer.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Server && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\Server\RCServer.cpp > CMakeFiles\Server.dir\RCServer.cpp.i
 
 Source/Server/CMakeFiles/Server.dir/RCServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/RCServer.cpp.s"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Server && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\Server\RCServer.cpp -o CMakeFiles\Server.dir\RCServer.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Server && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\Server\RCServer.cpp -o CMakeFiles\Server.dir\RCServer.cpp.s
 
 # Object files for target Server
 Server_OBJECTS = \

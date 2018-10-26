@@ -2,6 +2,8 @@
 
 #include <utility>
 
+#include <utility>
+
 //
 // Created by Kin on 2018-10-11.
 // Copyright © 2018 jihuisoft. All rights reserved.
@@ -86,6 +88,16 @@ void KinRemoteControl::RCServer::OnClosed(std::weak_ptr<void> hdl) {
     Iterator = MasterClients.find(endPoint);
     if (Iterator != MasterClients.end())
     {
+        auto controlled = ControlledClients.find(Iterator->second.RemoteName);
+        if (controlled == ControlledClients.end())
+        {
+            return;
+        }
+        nlohmann::json Result;
+        Result["type"] = (+RequestType::StopControl)._to_string();
+
+        Core->send(controlled->second.Hdl,Result.dump(),websocketpp::frame::opcode::value::text);
+
         MasterClients.erase(Iterator);
     }
 }
@@ -140,9 +152,30 @@ void KinRemoteControl::RCServer::OnReceive(std::weak_ptr<void> hdl, const std::s
             master->second.RemoteName = cName;
             controlled->second.RemoteName = mName;
 
-            //Todo Send Start To Control
             Result["data"]["success"] = 1;
             Core->send(hdl, Result.dump(), websocketpp::frame::opcode::value::text);
+            Core->send(controlled->second.Hdl,Msg,websocketpp::frame::opcode::value::text);
+        }
+        else if( requestType == +RequestType::StopControl)
+        {
+            auto mName = con->get_remote_endpoint();
+            auto master = MasterClients.find(mName);
+
+            if (master == MasterClients.end())
+            {
+                return;
+            }
+
+            auto controlled = ControlledClients.find(master->second.RemoteName);
+            if (controlled == ControlledClients.end())
+            {
+                return;
+            }
+
+            master->second.RemoteName.clear();
+            controlled->second.RemoteName.clear();
+
+            Core->send(controlled->second.Hdl,Msg,websocketpp::frame::opcode::value::text);
         }
         else if (requestType == +RequestType::ControlOrder)
         {
@@ -166,8 +199,30 @@ void KinRemoteControl::RCServer::OnReceive(std::weak_ptr<void> hdl, const std::s
 
 }
 
+
 void KinRemoteControl::RCServer::OnReceiveBinary(std::weak_ptr<void> hdl, const std::string &Msg) {
-    kInfo(lg::Logger, "Receive Binary Msg");
+    auto con = Core->get_con_from_hdl(std::move(hdl));
+
+    auto type = SocketType::_from_integral(Msg[0]);
+    if(type == +SocketType::VideoPacket)
+    {
+        auto cClient = ControlledClients.find(con->get_remote_endpoint());
+
+        if(cClient == ControlledClients.end())
+        {
+            std::cout<<"Can't find Controlled from ControlledClients"<<std::endl;
+            return ;
+        }
+
+        auto rClient = MasterClients.find(cClient->second.RemoteName);
+        if(rClient == MasterClients.end())
+        {
+            std::cout<<"Can't find Master from RemoteName "<<std::endl;
+            return ;
+        }
+        Core->send(rClient->second.Hdl,Msg,websocketpp::frame::opcode::value::binary);
+    }
+
 }
 
 void KinRemoteControl::RCServer::NoticeControlledChanged(const std::string &Name, ClientState State) {

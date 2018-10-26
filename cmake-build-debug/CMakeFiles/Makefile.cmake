@@ -36,11 +36,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Source/Client/CMakeLists.txt"
   "../Source/CommonStruct/CMakeLists.txt"
   "../Source/Example/CMakeLists.txt"
+  "../Source/RCMaster/CMakeLists.txt"
   "../Source/Server/CMakeLists.txt"
-  "CMakeFiles/3.12.2/CMakeCCompiler.cmake"
-  "CMakeFiles/3.12.2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.12.2/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.12.2/CMakeSystem.cmake"
+  "CMakeFiles/3.12.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.12.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.12.3/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.12.3/CMakeSystem.cmake"
   "E:/KinFramework/KinBase/FindKinBase.cmake"
   "E:/KinFramework/KinCommonFunction.cmake"
   "E:/KinFramework/KinCommonSetting.cmake"
@@ -65,6 +66,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Source/Server/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Source/Client/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Source/Example/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Source/RCMaster/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -74,4 +76,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Source/Client/CMakeFiles/Client.dir/DependInfo.cmake"
   "Source/Example/CMakeFiles/ExampleClient.dir/DependInfo.cmake"
   "Source/Example/CMakeFiles/ExampleServer.dir/DependInfo.cmake"
+  "Source/RCMaster/CMakeFiles/RCMaster.dir/DependInfo.cmake"
   )

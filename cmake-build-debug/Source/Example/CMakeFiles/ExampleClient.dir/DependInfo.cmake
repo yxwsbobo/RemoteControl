@@ -16,6 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "E:/KinFramework/websocketpp/Source"
   "E:/KinFramework/nlohmann/Source"
   "E:/KinFramework/SystemControl/Source"
+  "../include"
   )
 
 # Targets to which this target links.

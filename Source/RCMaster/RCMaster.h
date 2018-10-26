@@ -6,8 +6,7 @@
 #ifndef KINREMOTECONTROL_RCMASTER_H
 #define KINREMOTECONTROL_RCMASTER_H
 
-namespace KinRemoteControl
-{
+namespace KinRemoteControl {
 
 /**
  * @brief
@@ -15,11 +14,12 @@ namespace KinRemoteControl
  * @author Kin
  * @copyright Copyright © 2018 jihuisoft. All rights reserved.
  */
-class RCMaster {
-public:
-    RCMaster()=default;
-    ~RCMaster()=default;
-    
+class RCMaster
+{
+ public:
+    RCMaster() = default;
+    ~RCMaster() = default;
+
 };
 
 }

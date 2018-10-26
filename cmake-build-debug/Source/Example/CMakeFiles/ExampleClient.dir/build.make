@@ -60,15 +60,15 @@ Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: Source/Example/CMak
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: Source/Example/CMakeFiles/ExampleClient.dir/includes_CXX.rsp
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: ../Source/Example/eClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\KinRemoteControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Example && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ExampleClient.dir\eClient.cpp.obj -c D:\ClionProjects\KinRemoteControl\Source\Example\eClient.cpp
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Example && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ExampleClient.dir\eClient.cpp.obj -c D:\ClionProjects\KinRemoteControl\Source\Example\eClient.cpp
 
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExampleClient.dir/eClient.cpp.i"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Example && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\Example\eClient.cpp > CMakeFiles\ExampleClient.dir\eClient.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Example && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\Example\eClient.cpp > CMakeFiles\ExampleClient.dir\eClient.cpp.i
 
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExampleClient.dir/eClient.cpp.s"
-	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Example && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\Example\eClient.cpp -o CMakeFiles\ExampleClient.dir\eClient.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-debug\Source\Example && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\Example\eClient.cpp -o CMakeFiles\ExampleClient.dir\eClient.cpp.s
 
 # Object files for target ExampleClient
 ExampleClient_OBJECTS = \

@@ -4,13 +4,33 @@
 //
 
 #include "../Client/RCClient.h"
+#include <thread>
+#include <future>
+#include <iostream>
 
 int main()
 {
     using namespace KinRemoteControl;
 
     RCClient Client;
-    Client.Connect("192.168.7.189",5656);
+    auto ft = std::async([&]{
+        Client.Connect("192.168.7.189",5656);
+    });
+
+
+    std::string Cmd;
+
+    while(std::getline(std::cin,Cmd))
+    {
+        if(Cmd == "q")
+        {
+            break;
+        }
+        if(Cmd == "t")
+        {
+            Client.TestFun();
+        }
+    }
 
     return 0;
 }
