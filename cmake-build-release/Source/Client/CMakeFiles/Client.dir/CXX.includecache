@@ -365,6 +365,8 @@ nlohmann/json_fwd.hpp
 -
 atomic
 -
+RunningTC.h
+D:/ClionProjects/KinRemoteControl/Source/Client/RunningTC.h
 libavutil/opt.h
 -
 libavcodec/avcodec.h
@@ -380,6 +382,10 @@ libavutil/imgutils.h
 libswresample/swresample.h
 -
 libavutil/audio_fifo.h
+-
+
+D:/ClionProjects/KinRemoteControl/Source/Client/RunningTC.h
+atomic
 -
 
 D:/ClionProjects/KinRemoteControl/Source/CommonStruct/CommonDefine.h

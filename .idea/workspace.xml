@@ -18,97 +18,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2ef24b-da99-409f-869a-6cea224a9bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/RCMaster/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/RCMaster/RCMaster.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/RCMaster/RCMaster.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Kin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Client/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Client/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Client/RCClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Client/RCClient.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Client/RCClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Client/RCClient.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Example/eClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Example/eClient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Example/eServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Example/eServer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Server/RCServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Server/RCServer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/GNU/Debug/ExampleClient.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Debug/ExampleClient.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/GNU/Debug/ExampleServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Debug/ExampleServer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/GNU/Debug/libClient.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Debug/libClient.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/GNU/Debug/libCommonStruct.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Debug/libCommonStruct.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/GNU/Debug/libServer.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Debug/libServer.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KinRemoteControl.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/KinRemoteControl.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/KinRemoteControl.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/CMakeFiles/Client.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Client/Client.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Client/Client.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CMakeFiles/CommonStruct.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CommonStruct.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/CommonStruct/CommonStruct.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/linklibs.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/eServer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/eServer.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/linklibs.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Example/Example.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Example/Example.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/CMakeFiles/Server.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/Server/Server.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/Server/Server.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Source/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Source/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Server/RCServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Server/RCServer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GNU/Release/ExampleClient.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/ExampleClient.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GNU/Release/ExampleServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/ExampleServer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GNU/Release/libClient.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/libClient.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GNU/Release/libCommonStruct.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/libCommonStruct.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GNU/Release/libRCMaster.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/libRCMaster.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GNU/Release/libServer.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/libServer.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/eServer.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Server/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Server/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -123,43 +61,45 @@
     <session id="-1810592783">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ExampleClient (disassembly)" value="3" />
           <entry key="cmake" value="3" />
-          <entry key="cpp" value="52" />
+          <entry key="cpp" value="55" />
           <entry key="future" value="1" />
-          <entry key="h" value="191" />
-          <entry key="hpp" value="21" />
+          <entry key="h" value="208" />
+          <entry key="hpp" value="25" />
           <entry key="ipp" value="1" />
           <entry key="tuple" value="1" />
-          <entry key="txt" value="52" />
+          <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="55" />
+          <entry key="CMakeLists.txt" value="56" />
           <entry key="Disassembly" value="3" />
-          <entry key="ObjectiveC" value="267" />
+          <entry key="ObjectiveC" value="291" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cmake" value="4" />
-          <entry key="cpp" value="9299" />
-          <entry key="h" value="2126" />
+          <entry key="cpp" value="10005" />
+          <entry key="h" value="2306" />
           <entry key="mm" value="8" />
           <entry key="txt" value="642" />
         </counts>
@@ -167,22 +107,33 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="646" />
-          <entry key="ObjectiveC" value="11433" />
+          <entry key="ObjectiveC" value="12319" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4241">
-              <caret line="398" column="30" lean-forward="true" selection-start-line="398" selection-start-column="30" selection-end-line="398" selection-end-column="30" />
+            <state relative-caret-position="419">
+              <caret line="213" column="34" lean-forward="true" selection-start-line="213" selection-start-column="34" selection-end-line="213" selection-end-column="34" />
               <folding>
                 <element signature="e#112#133#0" expanded="true" />
-                <element signature="e#3560#5833#0" />
+                <element signature="e#2229#2498#0" />
+                <element signature="e#2499#2588#0" />
+                <element signature="e#3804#3948#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -190,44 +141,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="1485">
+              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               <folding>
                 <element signature="e#165#182#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source/Example/eClient.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#92#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3753">
-              <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -243,20 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>param</find>
-      <find>regist</find>
-      <find>fmtCtx</find>
-      <find>time_base</find>
-      <find>rgba</find>
-      <find>binary</find>
-      <find>send</find>
-      <find>AV_PIX_FMT_YUV420P</find>
-      <find>600</find>
-      <find>while</find>
-      <find>Controlmachine</find>
-      <find>ControlMachine</find>
-      <find>width</find>
-      <find>height</find>
       <find>GetAndSendVideo</find>
       <find>avformat_close_input</find>
       <find>code</find>
@@ -273,6 +177,20 @@
       <find>geten</find>
       <find>zerolatency</find>
       <find>rate</find>
+      <find>avformat_open_input</find>
+      <find>OnControlOrder</find>
+      <find>recorde</find>
+      <find>OnStopControl</find>
+      <find>MiddleButton</find>
+      <find>Parse Message Fail</find>
+      <find>WebSocket Server run Fail</find>
+      <find>Can't find Master from RemoteName</find>
+      <find>Can't find Master</find>
+      <find>frameRate</find>
+      <find>mouse</find>
+      <find>Mouse</find>
+      <find>regist</find>
+      <find>Parse Message</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -285,19 +203,21 @@
         <option value="$PROJECT_DIR$/Source/Server/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Source/CommonStruct/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Source/Example/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Source/Example/eServer.cpp" />
-        <option value="$PROJECT_DIR$/Source/Server/RCServer.h" />
         <option value="$PROJECT_DIR$/Source/RCMaster/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Source/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Source/Client/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/libavformat/avformat.h" />
         <option value="$PROJECT_DIR$/include/libavutil/dict.h" />
-        <option value="$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h" />
-        <option value="$PROJECT_DIR$/Source/Client/RCClient.h" />
-        <option value="$PROJECT_DIR$/Source/Server/RCServer.cpp" />
-        <option value="$PROJECT_DIR$/Source/Client/RCClient.cpp" />
         <option value="$PROJECT_DIR$/Source/Example/eClient.cpp" />
+        <option value="$PROJECT_DIR$/Source/Client/RCClient.h" />
+        <option value="$PROJECT_DIR$/Source/Client/RunningTC.h" />
+        <option value="$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h" />
+        <option value="$PROJECT_DIR$/Source/Example/eServer.cpp" />
+        <option value="$PROJECT_DIR$/Source/Server/RCServer.h" />
+        <option value="$PROJECT_DIR$/Source/Server/RCServer.cpp" />
+        <option value="E:/KinFramework/SystemControl/Source/SystemControl/InputStructInfo.h" />
+        <option value="$PROJECT_DIR$/Source/Client/RCClient.cpp" />
       </list>
     </option>
   </component>
@@ -314,7 +234,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1620" />
     <option name="height" value="920" />
@@ -344,6 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,17 +277,10 @@
               <item name="KinRemoteControl" type="462c0819:PsiDirectoryNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="KinRemoteControl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KinRemoteControl" type="462c0819:PsiDirectoryNode" />
-              <item name="Source" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,7 +296,7 @@
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -468,11 +382,15 @@
       <workItem from="1540473725292" duration="2808000" />
       <workItem from="1540516704182" duration="2188000" />
       <workItem from="1540557244401" duration="3728000" />
+      <workItem from="1540619579523" duration="758000" />
+      <workItem from="1540774102464" duration="701000" />
+      <workItem from="1540790885788" duration="13513000" />
+      <workItem from="1540879055413" duration="3693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102368000" />
+    <option name="totallyTimeSpent" value="121033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,7 +402,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" type="SLIDING" weight="0.20308483" />
@@ -549,20 +467,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FindKinRemoteControl.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/CommonStruct/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/KinFramework/websocketpp/Source/websocketpp/common/connection_hdl.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -643,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/KinFramework/websocketpp/Source/websocketpp/transport/asio/endpoint.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="641" selection-start-line="641" selection-end-line="641" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/KinFramework/nlohmann/Source/nlohmann/detail/json_ref.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -663,9 +560,6 @@
           <caret line="230" column="25" selection-start-line="230" selection-start-column="25" selection-end-line="230" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://E:/KinFramework/SystemControl/Source/SystemControl/InputStructInfo.h">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://E:/KinFramework/SystemControl/Source/SystemControl/KinControl.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -681,34 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Example/eServer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/KinFramework/websocketpp/Source/websocketpp/endpoint.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="652" column="19" selection-start-line="652" selection-start-column="19" selection-end-line="652" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/KinFramework/websocketpp/Source/websocketpp/frame.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="e#165#182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,24 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/libavdevice/avdevice.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="67" column="3" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/libavformat/avformat.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="2219" column="3" lean-forward="true" selection-start-line="2219" selection-start-column="3" selection-end-line="2219" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -855,58 +711,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3753">
-          <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/libavcodec/avcodec.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
-          <caret line="1589" column="26" selection-start-line="1589" selection-start-column="8" selection-end-line="1589" selection-end-column="26" />
+          <caret line="1581" column="11" selection-start-line="1581" selection-start-column="4" selection-end-line="1581" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.h">
+    <entry file="file://E:/KinFramework/websocketpp/Source/websocketpp/transport/asio/endpoint.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding>
-            <element signature="e#165#182#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="491">
+          <caret line="641" column="20" selection-start-line="641" selection-start-column="20" selection-end-line="641" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/Example/eClient.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="162">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#92#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Client/RunningTC.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/KinFramework/websocketpp/Source/websocketpp/endpoint.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/KinFramework/websocketpp/Source/websocketpp/roles/server_endpoint.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="159" column="17" lean-forward="true" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/libavdevice/avdevice.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="69" column="3" lean-forward="true" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="e#165#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="237" column="19" lean-forward="true" selection-start-line="237" selection-start-column="19" selection-end-line="237" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#152#173#0" expanded="true" />
+            <element signature="e#448#2336#0" />
+            <element signature="e#2550#3465#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#165#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Example/eServer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#92#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/KinFramework/SystemControl/Source/SystemControl/InputStructInfo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4241">
-          <caret line="398" column="30" lean-forward="true" selection-start-line="398" selection-start-column="30" selection-end-line="398" selection-end-column="30" />
+        <state relative-caret-position="419">
+          <caret line="213" column="34" lean-forward="true" selection-start-line="213" selection-start-column="34" selection-end-line="213" selection-end-column="34" />
           <folding>
             <element signature="e#112#133#0" expanded="true" />
-            <element signature="e#3560#5833#0" />
+            <element signature="e#2229#2498#0" />
+            <element signature="e#2499#2588#0" />
+            <element signature="e#3804#3948#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>

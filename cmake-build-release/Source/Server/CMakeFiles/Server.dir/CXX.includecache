@@ -41,6 +41,8 @@ memory
 -
 unordered_map
 -
+atomic
+-
 ../CommonStruct/CommonDefine.h
 D:/ClionProjects/KinRemoteControl/Source/CommonStruct/CommonDefine.h
 

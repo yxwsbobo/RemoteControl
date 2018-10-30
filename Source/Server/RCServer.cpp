@@ -25,11 +25,16 @@ void KinRemoteControl::RCServer::Run(uint16_t Port) {
     try
     {
         Core = std::make_shared<CoreType>();
-//    Core->set_access_channels(websocketpp::log::alevel::all);
+        Core->set_error_channels(websocketpp::log::alevel::all);
+//        Core->set_access_channels(websocketpp::log::alevel::all);
         Core->clear_access_channels(websocketpp::log::alevel::all);
+
 //    Core->clear_error_channels(websocketpp::log::alevel::all);
 
         Core->init_asio();
+
+        Core->start_perpetual();
+
 
         Core->set_open_handler([this](std::weak_ptr<void> hdl) {
           return this->OnConnected(hdl);
@@ -50,11 +55,26 @@ void KinRemoteControl::RCServer::Run(uint16_t Port) {
           return this->OnClosed(hdl);
         });
 
+        Core->set_fail_handler([](std::weak_ptr<void> hdl){
+            std::cout<<"Some Socket Failed"<<std::endl;
+        });
+
         Core->listen(Port);
 
         // Start the server accept loop
         Core->start_accept();
-        Core->run();
+
+        while(Running)
+        {
+            try
+            {
+                Core->run();
+            }
+            catch (...)
+            {
+                std::cout<<"Run Fail, restart"<<std::endl;
+            }
+        }
 
     }
     catch (websocketpp::exception const &e)
@@ -104,11 +124,18 @@ void KinRemoteControl::RCServer::OnClosed(std::weak_ptr<void> hdl) {
 
 void KinRemoteControl::RCServer::OnReceive(std::weak_ptr<void> hdl, const std::string &Msg) {
     auto con = Core->get_con_from_hdl(hdl);
-    auto Message = nlohmann::json::parse(Msg);
     try
     {
+        auto Message = nlohmann::json::parse(Msg);
+
+
         std::string tempType = Message["type"];
         auto requestType = RequestType::_from_string(tempType.c_str());
+
+        if(requestType != +RequestType::ControlOrder)
+        {
+            std::cout<<"Receive :"<<Msg<<std::endl;
+        }
 
         if (requestType == +RequestType::RegistControlled)
         {

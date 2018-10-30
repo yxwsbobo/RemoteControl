@@ -35,6 +35,7 @@ Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: ../include/libswres
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: ../include/libswresample/version.h
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: ../include/libswscale/swscale.h
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: ../Source/Client/RCClient.h
+Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: ../Source/Client/RunningTC.h
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: ../Source/CommonStruct/CommonDefine.h
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: ../Source/Example/eClient.cpp
 Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj: E:/KinFramework/KinBase/Source/KinBase/BetterEnum.h

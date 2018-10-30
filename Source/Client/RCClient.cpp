@@ -32,7 +32,7 @@ void KinRemoteControl::RCClient::Connect(const std::string &Uri, uint16_t Port) 
     {
 //  Core->set_access_channels(websocketpp::log::alevel::all);
         Core->clear_access_channels(websocketpp::log::alevel::all);
-//  Core->clear_error_channels(websocketpp::log::alevel::all);
+//        Core->clear_error_channels(websocketpp::log::alevel::all);
 
         Core->init_asio();
 
@@ -61,7 +61,10 @@ void KinRemoteControl::RCClient::Connect(const std::string &Uri, uint16_t Port) 
 
         Core->connect(con);
 
-        Core->run();
+        for (int i = 0; i != 3; ++i)
+        {
+            std::thread([=]{Core->run();}).detach();
+        }
     }
     catch (const std::exception &e)
     {
@@ -81,7 +84,7 @@ void KinRemoteControl::RCClient::OnConnected(std::weak_ptr<void> hdl) {
     Core->send(std::move(hdl), Msg.dump(), websocketpp::frame::opcode::value::text);
 }
 void KinRemoteControl::RCClient::OnClosed(std::weak_ptr<void> hdl) {
-
+    StopRecorde();
 }
 
 void KinRemoteControl::RCClient::OnReceive(std::weak_ptr<void> hdl, const std::string &Msg) {
@@ -100,7 +103,9 @@ void KinRemoteControl::RCClient::OnReceive(std::weak_ptr<void> hdl, const std::s
         {
             int width = Message["data"]["width"];
             int height = Message["data"]["height"];
-            std::thread(&RCClient::GetAndSendVideo,this,width,height).detach();
+            int bitRate = Message["data"]["bitRate"];
+            int frameRate = Message["data"]["frameRate"];
+            std::thread(&RCClient::GetAndSendVideo,this,width,height,bitRate,frameRate).detach();
         }
         else if(requestType == +RequestType::StopControl)
         {
@@ -119,6 +124,17 @@ void KinRemoteControl::RCClient::OnReceive(std::weak_ptr<void> hdl, const std::s
 void KinRemoteControl::RCClient::OnReceiveBinary(std::weak_ptr<void> hdl, const std::string &Msg) {
 
 }
+
+void KinRemoteControl::RCClient::StopRecorde() {
+    Running = false;
+
+    while(RunningThread)
+    {
+        std::this_thread::yield();
+    }
+}
+
+
 void KinRemoteControl::RCClient::OnControlOrder(const nlohmann::json &data) {
     std::string tempType = data["type"];
     auto orderType = ControlType::_from_string(tempType.c_str());
@@ -187,6 +203,16 @@ void KinRemoteControl::RCClient::OnControlOrder(const nlohmann::json &data) {
 
         SysControl.MouseEvent(ms);
     }
+    else if(orderType == +ControlType::MiddleButtonWheel)
+    {
+        MouseStructInfo ms;
+        ms.Type = InputStructType::MiddleButtonWheel;
+        ms.x = data["x"];
+        ms.y = data["y"];
+        ms.Info = data["info"];
+
+        SysControl.MouseEvent(ms);
+    }
     else if(orderType == +ControlType::KeyboardDown)
     {
         KeyboardStructInfo ks;
@@ -209,7 +235,7 @@ void KinRemoteControl::RCClient::TestFun() {
 //    Core->send(RemoteHdl,&mt,sizeof(mt), websocketpp::frame::opcode::value::binary);
 }
 
-AVCodecContext * GetEncodeCtx(int Width, int Height){
+AVCodecContext * GetEncodeCtx(int Width, int Height, int64_t BitRate){
     auto Encoder = avcodec_find_encoder(AV_CODEC_ID_HEVC);
     if(!Encoder)
     {
@@ -229,7 +255,7 @@ AVCodecContext * GetEncodeCtx(int Width, int Height){
 
 
     enCtx->pix_fmt = AV_PIX_FMT_YUV420P;
-    enCtx->bit_rate = 2000000;
+    enCtx->bit_rate = BitRate;
     enCtx->bit_rate_tolerance = (int) (enCtx->bit_rate / 2);
 
     av_opt_set(enCtx->priv_data, "preset", "ultrafast", 0);
@@ -243,7 +269,11 @@ AVCodecContext * GetEncodeCtx(int Width, int Height){
     return enCtx;
 }
 
-void KinRemoteControl::RCClient::GetAndSendVideo(int Width, int Height) {
+void KinRemoteControl::RCClient::GetAndSendVideo(int Width, int Height, int BitRate, int FrameRate) {
+
+    StopRecorde();
+    RunningTC rTC(RunningThread);
+
     Running = true;
 
     //init input Context
@@ -259,7 +289,15 @@ void KinRemoteControl::RCClient::GetAndSendVideo(int Width, int Height) {
         return;
     }
 
-    avformat_open_input(&ScreenCtx, "desktop", format, nullptr);
+    AVDictionary* options = nullptr;
+
+    av_dict_set( &options, "draw_mouse", "1", 0 );
+    std::string fRate = std::to_string(FrameRate);
+    av_dict_set( &options, "framerate", fRate.c_str(), 0 );
+
+    avformat_open_input(&ScreenCtx, "desktop", format, &options);
+
+    av_dict_free( &options );
     if(avformat_find_stream_info( ScreenCtx, nullptr ) < 0){
         std::cout<<"avformat_find_stream_info failed"<<std::endl;
         return;
@@ -298,7 +336,7 @@ void KinRemoteControl::RCClient::GetAndSendVideo(int Width, int Height) {
     }
 
     //Init Encode Context
-    auto EncodeCtx = GetEncodeCtx(Width, Height);
+    auto EncodeCtx = GetEncodeCtx(Width, Height, BitRate);
     if(EncodeCtx == nullptr){
         std::cout<<"GetEncodeCtx Failed"<<std::endl;
         return;
@@ -327,18 +365,12 @@ void KinRemoteControl::RCClient::GetAndSendVideo(int Width, int Height) {
     auto Packet = av_packet_alloc();
     av_new_packet(Packet, pkgSize);
 
-
-//    int tSteps = 0;
     while(Running)
     {
 
         av_packet_unref(InnerPkg);
 
         av_read_frame(ScreenCtx, InnerPkg);
-//        if(++tSteps % 3 == 0)
-//        {
-//            continue;
-//        }
 
         if(avcodec_send_packet(DecodeCtx, InnerPkg) != 0)
         {

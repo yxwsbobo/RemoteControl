@@ -4,12 +4,18 @@
 //
 
 #include "../Server/RCServer.h"
+#include <iostream>
 
 int main()
 {
     using namespace KinRemoteControl;
     RCServer server;
     server.Run();
+
+    std::cout<<"over"<<std::endl;
+
+    std::string quite;
+    std::cin>>quite;
 
     return 0;
 }

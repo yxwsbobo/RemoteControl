@@ -36,6 +36,7 @@ Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: ../include/libswresample/v
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: ../include/libswscale/swscale.h
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: ../Source/Client/RCClient.cpp
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: ../Source/Client/RCClient.h
+Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: ../Source/Client/RunningTC.h
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: ../Source/CommonStruct/CommonDefine.h
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: E:/KinFramework/KinBase/Source/KinBase/BetterEnum.h
 Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj: E:/KinFramework/SystemControl/Source/SystemControl/InputStructInfo.h

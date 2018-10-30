@@ -8,6 +8,7 @@
 
 #include <memory>
 #include <unordered_map>
+#include <atomic>
 #include "../CommonStruct/CommonDefine.h"
 
 
@@ -44,6 +45,8 @@ namespace KinRemoteControl {
         std::unordered_map<std::string,ClientInfo> MasterClients;
 
         std::shared_ptr<CoreType> Core;
+
+        std::atomic_bool Running = true;
     };
 
 }

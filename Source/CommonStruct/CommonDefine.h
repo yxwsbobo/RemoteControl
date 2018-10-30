@@ -72,6 +72,7 @@ BETTER_ENUM(ControlType, int,
     RightButtonUp,
     MiddleButtonDown,
     MiddleButtonUp,
+    MiddleButtonWheel,
     KeyboardDown,
     KeyboardUp);
 

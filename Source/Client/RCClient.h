@@ -12,6 +12,8 @@
 #include <SystemControl/KinControl.h>
 #include <nlohmann/json_fwd.hpp>
 #include <atomic>
+#include "RunningTC.h"
+
 extern "C"{
 #include <libavutil/opt.h>
 #include <libavcodec/avcodec.h>
@@ -47,10 +49,11 @@ namespace KinRemoteControl {
       void OnReceive(std::weak_ptr<void> hdl, const std::string& Msg);
       void OnReceiveBinary(std::weak_ptr<void> hdl, const std::string& Msg);
 
+      void StopRecorde();
      private:
         void OnControlOrder(const nlohmann::json& data);
 
-        void GetAndSendVideo(int Width, int Height);
+        void GetAndSendVideo(int Width, int Height, int BitRate, int FrameRate);
 
         void OnStopControl();
 
@@ -63,6 +66,7 @@ namespace KinRemoteControl {
 
         AVFormatContext* ScreenCtx = nullptr;
         std::atomic_bool Running = false;
+        std::atomic_int32_t RunningThread = 0;
 
         int* TempBuffer = nullptr;
         AVPacket *InnerPkg = nullptr;

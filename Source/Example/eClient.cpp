@@ -13,9 +13,7 @@ int main()
     using namespace KinRemoteControl;
 
     RCClient Client;
-    auto ft = std::async([&]{
-        Client.Connect("192.168.7.189",5656);
-    });
+    Client.Connect("192.168.7.189",5656);
 
 
     std::string Cmd;
