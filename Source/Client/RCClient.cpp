@@ -68,11 +68,11 @@ void KinRemoteControl::RCClient::Connect(const std::string &Uri, uint16_t Port) 
     }
     catch (const std::exception &e)
     {
-        kWarn(lg::Logger, "Parse Message Fail. what():{}", e.what());
+        kWarn(lg::Logger, "WebSocket Init Fail. what():{}", e.what());
     }
     catch (...)
     {
-        kWarn(lg::Logger, "Parse Message Unknown Error.");
+        kWarn(lg::Logger, "WebSocket Init Unknown Error.");
     }
 
 }
@@ -114,7 +114,7 @@ void KinRemoteControl::RCClient::OnReceive(std::weak_ptr<void> hdl, const std::s
     }
     catch (const std::exception &e)
     {
-        kWarn(lg::Logger, "Parse Message Fail. what():{}", e.what());
+        std::cout<<"Parse Message Fail. what:"<<e.what()<<", Msg :"<<Msg<<std::endl;
     }
     catch (...)
     {

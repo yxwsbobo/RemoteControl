@@ -1,0 +1,1 @@
+ -LD:/webTest/webffmpeg/libs -llibavcodec -llibavutil -llibswscale ../../../bin/libwebffmpeg_1_InnerScript_js.a --js-library "D:/webTest/webffmpeg/Source/Example/InnerScript.js" 

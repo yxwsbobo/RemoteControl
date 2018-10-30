@@ -217,7 +217,7 @@ void KinRemoteControl::RCServer::OnReceive(std::weak_ptr<void> hdl, const std::s
     }
     catch (const std::exception &e)
     {
-        kWarn(lg::Logger, "Parse Message Fail. what():{}", e.what());
+        std::cout<<"Parse Message Fail. what:"<<e.what()<<", Msg :"<<Msg<<std::endl;
     }
     catch (...)
     {

@@ -18,35 +18,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2ef24b-da99-409f-869a-6cea224a9bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Kin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Client/RCClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Client/RCClient.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Client/RCClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Client/RCClient.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Example/eClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Example/eClient.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Example/eServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Example/eServer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Server/RCServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Server/RCServer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Server/RCServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Server/RCServer.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GNU/Release/ExampleClient.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/ExampleClient.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GNU/Release/ExampleServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/ExampleServer.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GNU/Release/libClient.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/libClient.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GNU/Release/libCommonStruct.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/libCommonStruct.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GNU/Release/libRCMaster.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/libRCMaster.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GNU/Release/libServer.a" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GNU/Release/libServer.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleClient.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/eServer.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Example/CMakeFiles/ExampleServer.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Server/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Server/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -61,8 +45,8 @@
     <session id="-1810592783">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="2" />
@@ -72,16 +56,16 @@
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ExampleClient (disassembly)" value="3" />
           <entry key="cmake" value="3" />
-          <entry key="cpp" value="55" />
+          <entry key="cpp" value="56" />
           <entry key="future" value="1" />
-          <entry key="h" value="208" />
+          <entry key="h" value="209" />
           <entry key="hpp" value="25" />
           <entry key="ipp" value="1" />
           <entry key="tuple" value="1" />
@@ -92,13 +76,13 @@
         <counts>
           <entry key="CMakeLists.txt" value="56" />
           <entry key="Disassembly" value="3" />
-          <entry key="ObjectiveC" value="291" />
+          <entry key="ObjectiveC" value="293" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cmake" value="4" />
-          <entry key="cpp" value="10005" />
+          <entry key="cpp" value="10088" />
           <entry key="h" value="2306" />
           <entry key="mm" value="8" />
           <entry key="txt" value="642" />
@@ -107,7 +91,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="646" />
-          <entry key="ObjectiveC" value="12319" />
+          <entry key="ObjectiveC" value="12402" />
         </counts>
       </usages-collector>
     </session>
@@ -117,23 +101,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="213" column="34" lean-forward="true" selection-start-line="213" selection-start-column="34" selection-end-line="213" selection-end-column="34" />
+            <state relative-caret-position="35">
+              <caret line="372" column="33" selection-start-line="372" selection-start-column="33" selection-end-line="372" selection-end-column="33" />
               <folding>
                 <element signature="e#112#133#0" expanded="true" />
-                <element signature="e#2229#2498#0" />
-                <element signature="e#2499#2588#0" />
-                <element signature="e#3804#3948#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="166">
+              <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#152#173#0" expanded="true" />
+                <element signature="e#448#2336#0" />
+                <element signature="e#2550#3465#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,10 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>GetAndSendVideo</find>
-      <find>avformat_close_input</find>
-      <find>code</find>
-      <find>1, 2</find>
       <find>InnerPkg</find>
       <find>close</find>
       <find>nlohmann::json Result;</find>
@@ -182,15 +165,19 @@
       <find>recorde</find>
       <find>OnStopControl</find>
       <find>MiddleButton</find>
-      <find>Parse Message Fail</find>
       <find>WebSocket Server run Fail</find>
-      <find>Can't find Master from RemoteName</find>
       <find>Can't find Master</find>
       <find>frameRate</find>
       <find>mouse</find>
       <find>Mouse</find>
       <find>regist</find>
       <find>Parse Message</find>
+      <find>Msg{}</find>
+      <find>Parse Message Fail.</find>
+      <find>ControlMachine</find>
+      <find>Can't find Master from RemoteName</find>
+      <find>receive fram</find>
+      <find>Parse Message Fail</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,9 +202,9 @@
         <option value="$PROJECT_DIR$/Source/CommonStruct/CommonDefine.h" />
         <option value="$PROJECT_DIR$/Source/Example/eServer.cpp" />
         <option value="$PROJECT_DIR$/Source/Server/RCServer.h" />
-        <option value="$PROJECT_DIR$/Source/Server/RCServer.cpp" />
         <option value="E:/KinFramework/SystemControl/Source/SystemControl/InputStructInfo.h" />
         <option value="$PROJECT_DIR$/Source/Client/RCClient.cpp" />
+        <option value="$PROJECT_DIR$/Source/Server/RCServer.cpp" />
       </list>
     </option>
   </component>
@@ -264,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,10 +263,17 @@
               <item name="KinRemoteControl" type="462c0819:PsiDirectoryNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="KinRemoteControl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KinRemoteControl" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,11 +379,12 @@
       <workItem from="1540774102464" duration="701000" />
       <workItem from="1540790885788" duration="13513000" />
       <workItem from="1540879055413" duration="3693000" />
+      <workItem from="1540888855690" duration="4050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121033000" />
+    <option name="totallyTimeSpent" value="125083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,29 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-          <folding>
-            <element signature="e#165#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="237" column="19" lean-forward="true" selection-start-line="237" selection-start-column="19" selection-end-line="237" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#152#173#0" expanded="true" />
-            <element signature="e#448#2336#0" />
-            <element signature="e#2550#3465#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -813,22 +784,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/KinFramework/SystemControl/Source/SystemControl/InputStructInfo.h">
+    <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="213" column="34" lean-forward="true" selection-start-line="213" selection-start-column="34" selection-end-line="213" selection-end-column="34" />
+        <state relative-caret-position="1485">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
           <folding>
-            <element signature="e#112#133#0" expanded="true" />
-            <element signature="e#2229#2498#0" />
-            <element signature="e#2499#2588#0" />
-            <element signature="e#3804#3948#0" />
+            <element signature="e#165#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -837,6 +798,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/KinFramework/SystemControl/Source/SystemControl/InputStructInfo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Client/RCClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="372" column="33" selection-start-line="372" selection-start-column="33" selection-end-line="372" selection-end-column="33" />
+          <folding>
+            <element signature="e#112#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Server/RCServer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#152#173#0" expanded="true" />
+            <element signature="e#448#2336#0" />
+            <element signature="e#2550#3465#0" />
+          </folding>
         </state>
       </provider>
     </entry>
