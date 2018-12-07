@@ -76,5 +76,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Source/Client/CMakeFiles/Client.dir/DependInfo.cmake"
   "Source/Example/CMakeFiles/ExampleClient.dir/DependInfo.cmake"
   "Source/Example/CMakeFiles/ExampleServer.dir/DependInfo.cmake"
+  "Source/Example/CMakeFiles/ExampleMaster.dir/DependInfo.cmake"
   "Source/RCMaster/CMakeFiles/RCMaster.dir/DependInfo.cmake"
   )

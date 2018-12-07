@@ -9,11 +9,8 @@
 #include <websocketpp/config/asio_no_tls_client.hpp>
 #include <websocketpp/client.hpp>
 #include <nlohmann/json.hpp>
-
-
-#define kWarn(a, b, ...) std::cout<<b<<std::endl;
-#define kInfo(a, b, ...) std::cout<<b<<std::endl;
-#define kTrace(...)
+#include <KinBase/KinLog.hpp>
+#include <KinBase/KinException.hpp>
 
 KinRemoteControl::RCClient::RCClient() {
     avdevice_register_all();
@@ -68,11 +65,11 @@ void KinRemoteControl::RCClient::Connect(const std::string &Uri, uint16_t Port) 
     }
     catch (const std::exception &e)
     {
-        kWarn(lg::Logger, "WebSocket Init Fail. what():{}", e.what());
+        kWarn("WebSocket Init Fail. what():{}", e.what());
     }
     catch (...)
     {
-        kWarn(lg::Logger, "WebSocket Init Unknown Error.");
+        kWarn("WebSocket Init Unknown Error.");
     }
 
 }
@@ -118,7 +115,7 @@ void KinRemoteControl::RCClient::OnReceive(std::weak_ptr<void> hdl, const std::s
     }
     catch (...)
     {
-        kWarn(lg::Logger, "Parse Message Unknown Error.");
+        kWarn("Parse Message Unknown Error.");
     }
 }
 void KinRemoteControl::RCClient::OnReceiveBinary(std::weak_ptr<void> hdl, const std::string &Msg) {

@@ -6,6 +6,8 @@
 #ifndef KINREMOTECONTROL_RCMASTER_H
 #define KINREMOTECONTROL_RCMASTER_H
 
+#include <string>
+
 namespace KinRemoteControl {
 
 /**
@@ -17,8 +19,14 @@ namespace KinRemoteControl {
 class RCMaster
 {
  public:
-    RCMaster() = default;
+    explicit RCMaster();
     ~RCMaster() = default;
+
+    void ConnectTo(std::string Url);
+
+    void Run(int NumberOfThreads = 2);
+
+ private:
 
 };
 

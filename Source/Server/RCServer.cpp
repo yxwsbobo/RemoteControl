@@ -15,10 +15,9 @@
 #include <functional>
 #include <nlohmann/json.hpp>
 #include <fmt/fmt.h>
+#include <KinBase/KinLog.hpp>
+#include <KinBase/KinException.hpp>
 
-#define kWarn(a, b, ...) std::cout<<b<<std::endl;
-#define kInfo(a, b, ...) std::cout<<b<<std::endl;
-#define kTrace(...)
 
 void KinRemoteControl::RCServer::Run(uint16_t Port) {
     using MessageType = KinRemoteControl::RCServer::CoreType::message_ptr;
@@ -56,7 +55,7 @@ void KinRemoteControl::RCServer::Run(uint16_t Port) {
         });
 
         Core->set_fail_handler([](std::weak_ptr<void> hdl){
-            std::cout<<"Some Socket Failed"<<std::endl;
+            kInfo("Some Socket Failed");
         });
 
         Core->listen(Port);
@@ -72,25 +71,25 @@ void KinRemoteControl::RCServer::Run(uint16_t Port) {
             }
             catch (...)
             {
-                std::cout<<"Run Fail, restart"<<std::endl;
+                kInfo("Run Fail, restart");
             }
         }
 
     }
     catch (websocketpp::exception const &e)
     {
-        kWarn(lg::Logger, "WebSocket Server run Fail. what():{}", e.what());
+        kWarn("WebSocket Server run Fail. what():{}", e.what());
     }
     catch (...)
     {
-        kWarn(lg::Logger, "WebSocket Server run Unknown Error.");
+        kWarn("WebSocket Server run Unknown Error.");
     }
 
 }
 
 void KinRemoteControl::RCServer::OnConnected(std::weak_ptr<void> hdl) {
     auto con = Core->get_con_from_hdl(std::move(hdl));
-    std::cout << "Connected Client :" << con->get_remote_endpoint() << std::endl;
+    kInfo("Connected Client :{}",con->get_remote_endpoint());
 }
 
 void KinRemoteControl::RCServer::OnClosed(std::weak_ptr<void> hdl) {
@@ -134,7 +133,7 @@ void KinRemoteControl::RCServer::OnReceive(std::weak_ptr<void> hdl, const std::s
 
         if(requestType != +RequestType::ControlOrder)
         {
-            std::cout<<"Receive :"<<Msg<<std::endl;
+            kTrace("Receive :{}", Msg);
         }
 
         if (requestType == +RequestType::RegistControlled)
@@ -217,11 +216,11 @@ void KinRemoteControl::RCServer::OnReceive(std::weak_ptr<void> hdl, const std::s
     }
     catch (const std::exception &e)
     {
-        std::cout<<"Parse Message Fail. what:"<<e.what()<<", Msg :"<<Msg<<std::endl;
+        kInfo("Parse Message Fail. what:{} with Msg :{}",e.what(),Msg);
     }
     catch (...)
     {
-        kWarn(lg::Logger, "Parse Message Unknown Error.");
+        kWarn("Parse Message Unknown Error.");
     }
 
 }
@@ -237,14 +236,14 @@ void KinRemoteControl::RCServer::OnReceiveBinary(std::weak_ptr<void> hdl, const 
 
         if(cClient == ControlledClients.end())
         {
-            std::cout<<"Can't find Controlled from ControlledClients"<<std::endl;
+            kInfo("Can't find Controlled from ControlledClients");
             return ;
         }
 
         auto rClient = MasterClients.find(cClient->second.RemoteName);
         if(rClient == MasterClients.end())
         {
-            std::cout<<"Can't find Master from RemoteName "<<std::endl;
+            kInfo("Can't find Master from RemoteName");
             return ;
         }
         Core->send(rClient->second.Hdl,Msg,websocketpp::frame::opcode::value::binary);
@@ -253,7 +252,7 @@ void KinRemoteControl::RCServer::OnReceiveBinary(std::weak_ptr<void> hdl, const 
 }
 
 void KinRemoteControl::RCServer::NoticeControlledChanged(const std::string &Name, ClientState State) {
-    std::cout << "Change name :" << Name << std::endl;
+    kTrace("Change name :{}", Name);
     for (const auto&[master, info] : MasterClients)
     {
         nlohmann::json Msg;

@@ -175,6 +175,19 @@ ExampleServer/fast:
 .PHONY : ExampleServer/fast
 
 #=============================================================================
+# Target rules for targets named ExampleMaster
+
+# Build rule for target.
+ExampleMaster: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ExampleMaster
+.PHONY : ExampleMaster
+
+# fast build rule for target.
+ExampleMaster/fast:
+	$(MAKE) -f Source\Example\CMakeFiles\ExampleMaster.dir\build.make Source/Example/CMakeFiles/ExampleMaster.dir/build
+.PHONY : ExampleMaster/fast
+
+#=============================================================================
 # Target rules for targets named RCMaster
 
 # Build rule for target.
@@ -200,6 +213,7 @@ help:
 	@echo ... Client
 	@echo ... ExampleClient
 	@echo ... ExampleServer
+	@echo ... ExampleMaster
 	@echo ... RCMaster
 .PHONY : help
 

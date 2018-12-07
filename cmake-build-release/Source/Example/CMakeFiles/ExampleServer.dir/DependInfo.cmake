@@ -11,12 +11,11 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "E:/KinFramework/spdlog/Source"
-  "E:/KinFramework/KinBase/Source"
   "E:/KinFramework/boost/Source"
-  "E:/KinFramework/websocketpp/Source"
-  "E:/KinFramework/nlohmann/Source"
-  "E:/KinFramework/SystemControl/Source"
+  "E:/KinFramework/KinBase/Source"
   "../include"
+  "E:/KinFramework/SystemControl/Source"
+  "E:/KinFramework/nlohmann/Source"
   )
 
 # Targets to which this target links.

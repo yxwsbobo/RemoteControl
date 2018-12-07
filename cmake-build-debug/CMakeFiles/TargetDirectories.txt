@@ -13,6 +13,7 @@ D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Client/CMakeFiles/edi
 D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Client/CMakeFiles/rebuild_cache.dir
 D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/ExampleClient.dir
 D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/ExampleServer.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/ExampleMaster.dir
 D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/edit_cache.dir
 D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/CMakeFiles/rebuild_cache.dir
 D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/RCMaster/CMakeFiles/edit_cache.dir

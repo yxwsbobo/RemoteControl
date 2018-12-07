@@ -139,6 +139,21 @@ ExampleServer/fast:
 	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-release && $(MAKE) -f Source\Example\CMakeFiles\ExampleServer.dir\build.make Source/Example/CMakeFiles/ExampleServer.dir/build
 .PHONY : ExampleServer/fast
 
+# Convenience name for target.
+Source/Example/CMakeFiles/ExampleMaster.dir/rule:
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-release && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/CMakeFiles/ExampleMaster.dir/rule
+.PHONY : Source/Example/CMakeFiles/ExampleMaster.dir/rule
+
+# Convenience name for target.
+ExampleMaster: Source/Example/CMakeFiles/ExampleMaster.dir/rule
+
+.PHONY : ExampleMaster
+
+# fast build rule for target.
+ExampleMaster/fast:
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-release && $(MAKE) -f Source\Example\CMakeFiles\ExampleMaster.dir\build.make Source/Example/CMakeFiles/ExampleMaster.dir/build
+.PHONY : ExampleMaster/fast
+
 eClient.obj: eClient.cpp.obj
 
 .PHONY : eClient.obj
@@ -165,6 +180,33 @@ eClient.s: eClient.cpp.s
 eClient.cpp.s:
 	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-release && $(MAKE) -f Source\Example\CMakeFiles\ExampleClient.dir\build.make Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.s
 .PHONY : eClient.cpp.s
+
+eMaster.obj: eMaster.cpp.obj
+
+.PHONY : eMaster.obj
+
+# target to build an object file
+eMaster.cpp.obj:
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-release && $(MAKE) -f Source\Example\CMakeFiles\ExampleMaster.dir\build.make Source/Example/CMakeFiles/ExampleMaster.dir/eMaster.cpp.obj
+.PHONY : eMaster.cpp.obj
+
+eMaster.i: eMaster.cpp.i
+
+.PHONY : eMaster.i
+
+# target to preprocess a source file
+eMaster.cpp.i:
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-release && $(MAKE) -f Source\Example\CMakeFiles\ExampleMaster.dir\build.make Source/Example/CMakeFiles/ExampleMaster.dir/eMaster.cpp.i
+.PHONY : eMaster.cpp.i
+
+eMaster.s: eMaster.cpp.s
+
+.PHONY : eMaster.s
+
+# target to generate assembly for a file
+eMaster.cpp.s:
+	cd /d D:\ClionProjects\KinRemoteControl\cmake-build-release && $(MAKE) -f Source\Example\CMakeFiles\ExampleMaster.dir\build.make Source/Example/CMakeFiles/ExampleMaster.dir/eMaster.cpp.s
+.PHONY : eMaster.cpp.s
 
 eServer.obj: eServer.cpp.obj
 
@@ -201,11 +243,15 @@ help:
 	@echo ... depend
 	@echo ... ExampleClient
 	@echo ... ExampleServer
+	@echo ... ExampleMaster
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... eClient.obj
 	@echo ... eClient.i
 	@echo ... eClient.s
+	@echo ... eMaster.obj
+	@echo ... eMaster.i
+	@echo ... eMaster.s
 	@echo ... eServer.obj
 	@echo ... eServer.i
 	@echo ... eServer.s

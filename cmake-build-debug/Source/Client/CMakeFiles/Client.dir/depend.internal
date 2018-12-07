@@ -37,6 +37,7 @@ Source/Client/CMakeFiles/Client.dir/RCClient.cpp.obj
  ../include/libswscale/swscale.h
  D:/ClionProjects/KinRemoteControl/Source/Client/RCClient.cpp
  D:/ClionProjects/KinRemoteControl/Source/Client/RCClient.h
+ D:/ClionProjects/KinRemoteControl/Source/Client/RunningTC.h
  D:/ClionProjects/KinRemoteControl/Source/CommonStruct/CommonDefine.h
  E:/KinFramework/KinBase/Source/KinBase/BetterEnum.h
  E:/KinFramework/SystemControl/Source/SystemControl/InputStructInfo.h

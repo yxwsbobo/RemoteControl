@@ -4,3 +4,15 @@
 //
 
 #include "RCMaster.h"
+
+KinRemoteControl::RCMaster::RCMaster() {
+
+}
+
+void KinRemoteControl::RCMaster::ConnectTo(std::string Url) {
+
+}
+
+void KinRemoteControl::RCMaster::Run(int NumberOfThreads) {
+
+}

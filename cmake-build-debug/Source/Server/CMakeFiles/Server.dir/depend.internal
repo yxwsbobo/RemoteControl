@@ -6,6 +6,12 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  D:/ClionProjects/KinRemoteControl/Source/Server/RCServer.cpp
  D:/ClionProjects/KinRemoteControl/Source/Server/RCServer.h
  E:/KinFramework/KinBase/Source/KinBase/BetterEnum.h
+ E:/KinFramework/KinBase/Source/KinBase/KinCodeInfo.h
+ E:/KinFramework/KinBase/Source/KinBase/KinCodeInfo.hpp
+ E:/KinFramework/KinBase/Source/KinBase/KinException.h
+ E:/KinFramework/KinBase/Source/KinBase/KinException.hpp
+ E:/KinFramework/KinBase/Source/KinBase/KinLog.h
+ E:/KinFramework/KinBase/Source/KinBase/KinLog.hpp
  E:/KinFramework/boost/Source/boost/aligned_storage.hpp
  E:/KinFramework/boost/Source/boost/array.hpp
  E:/KinFramework/boost/Source/boost/asio.hpp
@@ -488,6 +494,8 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/bind/mem_fn_vw.hpp
  E:/KinFramework/boost/Source/boost/bind/placeholders.hpp
  E:/KinFramework/boost/Source/boost/bind/storage.hpp
+ E:/KinFramework/boost/Source/boost/blank.hpp
+ E:/KinFramework/boost/Source/boost/blank_fwd.hpp
  E:/KinFramework/boost/Source/boost/call_traits.hpp
  E:/KinFramework/boost/Source/boost/cerrno.hpp
  E:/KinFramework/boost/Source/boost/checked_delete.hpp
@@ -725,6 +733,7 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/detail/reference_content.hpp
  E:/KinFramework/boost/Source/boost/detail/scoped_enum_emulation.hpp
  E:/KinFramework/boost/Source/boost/detail/sp_typeinfo.hpp
+ E:/KinFramework/boost/Source/boost/detail/templated_streams.hpp
  E:/KinFramework/boost/Source/boost/detail/winapi/detail/deprecated_namespace.hpp
  E:/KinFramework/boost/Source/boost/detail/winapi/get_current_process.hpp
  E:/KinFramework/boost/Source/boost/detail/winapi/get_current_thread.hpp
@@ -768,9 +777,12 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/function/function_fwd.hpp
  E:/KinFramework/boost/Source/boost/function/function_template.hpp
  E:/KinFramework/boost/Source/boost/function_equal.hpp
+ E:/KinFramework/boost/Source/boost/function_output_iterator.hpp
  E:/KinFramework/boost/Source/boost/functional/hash.hpp
+ E:/KinFramework/boost/Source/boost/functional/hash_fwd.hpp
  E:/KinFramework/boost/Source/boost/get_pointer.hpp
  E:/KinFramework/boost/Source/boost/integer.hpp
+ E:/KinFramework/boost/Source/boost/integer/common_factor_ct.hpp
  E:/KinFramework/boost/Source/boost/integer/common_factor_rt.hpp
  E:/KinFramework/boost/Source/boost/integer/static_log2.hpp
  E:/KinFramework/boost/Source/boost/integer_fwd.hpp
@@ -797,6 +809,7 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/iterator/detail/config_undef.hpp
  E:/KinFramework/boost/Source/boost/iterator/detail/enable_if.hpp
  E:/KinFramework/boost/Source/boost/iterator/detail/facade_iterator_category.hpp
+ E:/KinFramework/boost/Source/boost/iterator/function_output_iterator.hpp
  E:/KinFramework/boost/Source/boost/iterator/interoperable.hpp
  E:/KinFramework/boost/Source/boost/iterator/iterator_adaptor.hpp
  E:/KinFramework/boost/Source/boost/iterator/iterator_categories.hpp
@@ -820,6 +833,7 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/move/algo/move.hpp
  E:/KinFramework/boost/Source/boost/move/algo/predicate.hpp
  E:/KinFramework/boost/Source/boost/move/algo/unique.hpp
+ E:/KinFramework/boost/Source/boost/move/algorithm.hpp
  E:/KinFramework/boost/Source/boost/move/core.hpp
  E:/KinFramework/boost/Source/boost/move/default_delete.hpp
  E:/KinFramework/boost/Source/boost/move/detail/config_begin.hpp
@@ -842,10 +856,15 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/move/detail/workaround.hpp
  E:/KinFramework/boost/Source/boost/move/iterator.hpp
  E:/KinFramework/boost/Source/boost/move/make_unique.hpp
+ E:/KinFramework/boost/Source/boost/move/move.hpp
  E:/KinFramework/boost/Source/boost/move/traits.hpp
  E:/KinFramework/boost/Source/boost/move/unique_ptr.hpp
  E:/KinFramework/boost/Source/boost/move/utility.hpp
  E:/KinFramework/boost/Source/boost/move/utility_core.hpp
+ E:/KinFramework/boost/Source/boost/mpl/O1_size.hpp
+ E:/KinFramework/boost/Source/boost/mpl/O1_size_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/advance.hpp
+ E:/KinFramework/boost/Source/boost/mpl/advance_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/always.hpp
  E:/KinFramework/boost/Source/boost/mpl/and.hpp
  E:/KinFramework/boost/Source/boost/mpl/apply.hpp
@@ -854,11 +873,16 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/mpl/arg.hpp
  E:/KinFramework/boost/Source/boost/mpl/arg_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/assert.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/O1_size_impl.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/adl_barrier.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/advance_backward.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/advance_forward.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/arg_typedef.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/arithmetic_op.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/arity.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/arity_spec.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/begin_end_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/clear_impl.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/common_name_wknd.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/comparison_op.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/config/adl.hpp
@@ -890,16 +914,32 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/mpl/aux_/config/use_preprocessed.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/config/workaround.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/count_args.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/empty_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/find_if_pred.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/fold_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/fold_impl_body.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/front_impl.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/full_lambda.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/has_apply.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/has_begin.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/has_rebind.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/has_size.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/has_tag.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/has_type.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/include_preprocessed.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/insert_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/insert_range_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/inserter_algorithm.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/integral_wrapper.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/is_msvc_eti_arg.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/iter_apply.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/iter_fold_if_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/iter_fold_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/iter_push_front.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/joint_iter.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/lambda_arity_param.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/lambda_no_ctps.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/lambda_spec.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/lambda_support.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/largest_int.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/logical_op.hpp
@@ -907,6 +947,7 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/mpl/aux_/msvc_eti_base.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/msvc_is_class.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/msvc_never_true.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/msvc_type.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/na.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/na_assert.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/na_fwd.hpp
@@ -927,45 +968,106 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/mpl/aux_/preprocessor/repeat.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/preprocessor/sub.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/preprocessor/tuple.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/push_back_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/push_front_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/reverse_fold_impl.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/reverse_fold_impl_body.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/sequence_wrapper.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/size_impl.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/static_cast.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/template_arity.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/template_arity_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/aux_/traits_lambda_spec.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/type_wrapper.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/value_wknd.hpp
  E:/KinFramework/boost/Source/boost/mpl/aux_/yes_no.hpp
+ E:/KinFramework/boost/Source/boost/mpl/back_inserter.hpp
+ E:/KinFramework/boost/Source/boost/mpl/begin_end.hpp
+ E:/KinFramework/boost/Source/boost/mpl/begin_end_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/bind.hpp
  E:/KinFramework/boost/Source/boost/mpl/bind_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/bool.hpp
  E:/KinFramework/boost/Source/boost/mpl/bool_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/clear.hpp
+ E:/KinFramework/boost/Source/boost/mpl/clear_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/deref.hpp
+ E:/KinFramework/boost/Source/boost/mpl/distance.hpp
+ E:/KinFramework/boost/Source/boost/mpl/distance_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/empty.hpp
+ E:/KinFramework/boost/Source/boost/mpl/empty_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/equal_to.hpp
  E:/KinFramework/boost/Source/boost/mpl/eval_if.hpp
+ E:/KinFramework/boost/Source/boost/mpl/find_if.hpp
+ E:/KinFramework/boost/Source/boost/mpl/fold.hpp
+ E:/KinFramework/boost/Source/boost/mpl/front.hpp
+ E:/KinFramework/boost/Source/boost/mpl/front_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/front_inserter.hpp
  E:/KinFramework/boost/Source/boost/mpl/has_xxx.hpp
  E:/KinFramework/boost/Source/boost/mpl/identity.hpp
  E:/KinFramework/boost/Source/boost/mpl/if.hpp
+ E:/KinFramework/boost/Source/boost/mpl/insert.hpp
+ E:/KinFramework/boost/Source/boost/mpl/insert_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/insert_range.hpp
+ E:/KinFramework/boost/Source/boost/mpl/insert_range_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/inserter.hpp
  E:/KinFramework/boost/Source/boost/mpl/int.hpp
  E:/KinFramework/boost/Source/boost/mpl/int_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/integral_c.hpp
  E:/KinFramework/boost/Source/boost/mpl/integral_c_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/integral_c_tag.hpp
  E:/KinFramework/boost/Source/boost/mpl/is_placeholder.hpp
+ E:/KinFramework/boost/Source/boost/mpl/is_sequence.hpp
+ E:/KinFramework/boost/Source/boost/mpl/iter_fold.hpp
+ E:/KinFramework/boost/Source/boost/mpl/iter_fold_if.hpp
+ E:/KinFramework/boost/Source/boost/mpl/iterator_category.hpp
+ E:/KinFramework/boost/Source/boost/mpl/iterator_range.hpp
+ E:/KinFramework/boost/Source/boost/mpl/iterator_tags.hpp
+ E:/KinFramework/boost/Source/boost/mpl/joint_view.hpp
  E:/KinFramework/boost/Source/boost/mpl/lambda.hpp
  E:/KinFramework/boost/Source/boost/mpl/lambda_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/less.hpp
  E:/KinFramework/boost/Source/boost/mpl/limits/arity.hpp
+ E:/KinFramework/boost/Source/boost/mpl/limits/list.hpp
+ E:/KinFramework/boost/Source/boost/mpl/limits/unrolling.hpp
+ E:/KinFramework/boost/Source/boost/mpl/list.hpp
  E:/KinFramework/boost/Source/boost/mpl/logical.hpp
+ E:/KinFramework/boost/Source/boost/mpl/long.hpp
+ E:/KinFramework/boost/Source/boost/mpl/long_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/max_element.hpp
+ E:/KinFramework/boost/Source/boost/mpl/min_max.hpp
  E:/KinFramework/boost/Source/boost/mpl/multiplies.hpp
+ E:/KinFramework/boost/Source/boost/mpl/negate.hpp
  E:/KinFramework/boost/Source/boost/mpl/next.hpp
  E:/KinFramework/boost/Source/boost/mpl/next_prior.hpp
  E:/KinFramework/boost/Source/boost/mpl/not.hpp
  E:/KinFramework/boost/Source/boost/mpl/numeric_cast.hpp
  E:/KinFramework/boost/Source/boost/mpl/or.hpp
+ E:/KinFramework/boost/Source/boost/mpl/pair.hpp
+ E:/KinFramework/boost/Source/boost/mpl/pair_view.hpp
  E:/KinFramework/boost/Source/boost/mpl/placeholders.hpp
+ E:/KinFramework/boost/Source/boost/mpl/plus.hpp
+ E:/KinFramework/boost/Source/boost/mpl/prior.hpp
  E:/KinFramework/boost/Source/boost/mpl/protect.hpp
+ E:/KinFramework/boost/Source/boost/mpl/push_back.hpp
+ E:/KinFramework/boost/Source/boost/mpl/push_back_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/push_front.hpp
+ E:/KinFramework/boost/Source/boost/mpl/push_front_fwd.hpp
  E:/KinFramework/boost/Source/boost/mpl/quote.hpp
+ E:/KinFramework/boost/Source/boost/mpl/reverse_fold.hpp
+ E:/KinFramework/boost/Source/boost/mpl/same_as.hpp
+ E:/KinFramework/boost/Source/boost/mpl/sequence_tag.hpp
+ E:/KinFramework/boost/Source/boost/mpl/sequence_tag_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/size.hpp
+ E:/KinFramework/boost/Source/boost/mpl/size_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/size_t.hpp
+ E:/KinFramework/boost/Source/boost/mpl/size_t_fwd.hpp
+ E:/KinFramework/boost/Source/boost/mpl/sizeof.hpp
  E:/KinFramework/boost/Source/boost/mpl/tag.hpp
  E:/KinFramework/boost/Source/boost/mpl/times.hpp
+ E:/KinFramework/boost/Source/boost/mpl/transform.hpp
  E:/KinFramework/boost/Source/boost/mpl/void.hpp
  E:/KinFramework/boost/Source/boost/mpl/void_fwd.hpp
+ E:/KinFramework/boost/Source/boost/multi_index/detail/scope_guard.hpp
  E:/KinFramework/boost/Source/boost/next_prior.hpp
  E:/KinFramework/boost/Source/boost/noncopyable.hpp
  E:/KinFramework/boost/Source/boost/none.hpp
@@ -1142,15 +1244,21 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/predef/platform/windows_uwp.h
  E:/KinFramework/boost/Source/boost/predef/version.h
  E:/KinFramework/boost/Source/boost/predef/version_number.h
+ E:/KinFramework/boost/Source/boost/preprocessor/arithmetic.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/arithmetic/add.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/arithmetic/dec.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/arithmetic/detail/div_base.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/arithmetic/div.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/arithmetic/inc.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/arithmetic/mod.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/arithmetic/mul.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/arithmetic/sub.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/array/data.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/array/elem.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/array/size.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/cat.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/comma_if.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/comparison/less_equal.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/comparison/not_equal.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/config/config.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/control/detail/dmc/while.hpp
@@ -1172,6 +1280,7 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/preprocessor/empty.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/enum.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/enum_params.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/enum_params_with_a_default.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/enum_shifted_params.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/expr_if.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/facilities/detail/is_empty.hpp
@@ -1186,7 +1295,10 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/preprocessor/identity.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/inc.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/iterate.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/iteration.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/iteration/iterate.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/iteration/local.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/iteration/self.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/list/adt.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/list/detail/dmc/fold_left.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/list/detail/edg/fold_left.hpp
@@ -1201,11 +1313,15 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/preprocessor/logical/bitand.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/logical/bool.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/logical/compl.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/logical/not.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/punctuation/comma.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/punctuation/comma_if.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/punctuation/detail/is_begin_parens.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/punctuation/is_begin_parens.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repeat.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition/deduce_r.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition/deduce_z.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/detail/dmc/for.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/detail/edg/for.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/detail/for.hpp
@@ -1213,7 +1329,13 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_binary_params.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_params.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_params_with_a_default.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_params_with_defaults.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_shifted.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_shifted_binary_params.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_shifted_params.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_trailing.hpp
+ E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_trailing_binary_params.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/enum_trailing_params.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/for.hpp
  E:/KinFramework/boost/Source/boost/preprocessor/repetition/repeat.hpp
@@ -1301,6 +1423,39 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/scoped_array.hpp
  E:/KinFramework/boost/Source/boost/scoped_ptr.hpp
  E:/KinFramework/boost/Source/boost/shared_ptr.hpp
+ E:/KinFramework/boost/Source/boost/signals2/connection.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/auto_buffer.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/foreign_ptr.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/lwm_nop.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/lwm_pthreads.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/lwm_win32_cs.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/null_output_iterator.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/preprocessed_arg_type.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/replace_slot_function.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/result_type_wrapper.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/signal_template.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/signals_common.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/signals_common_macros.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/slot_call_iterator.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/slot_groups.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/slot_template.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/tracked_objects_visitor.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/unique_lock.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/variadic_arg_type.hpp
+ E:/KinFramework/boost/Source/boost/signals2/detail/variadic_slot_invoker.hpp
+ E:/KinFramework/boost/Source/boost/signals2/dummy_mutex.hpp
+ E:/KinFramework/boost/Source/boost/signals2/expired_slot.hpp
+ E:/KinFramework/boost/Source/boost/signals2/mutex.hpp
+ E:/KinFramework/boost/Source/boost/signals2/optional_last_value.hpp
+ E:/KinFramework/boost/Source/boost/signals2/preprocessed_signal.hpp
+ E:/KinFramework/boost/Source/boost/signals2/preprocessed_slot.hpp
+ E:/KinFramework/boost/Source/boost/signals2/signal.hpp
+ E:/KinFramework/boost/Source/boost/signals2/signal_base.hpp
+ E:/KinFramework/boost/Source/boost/signals2/slot.hpp
+ E:/KinFramework/boost/Source/boost/signals2/slot_base.hpp
+ E:/KinFramework/boost/Source/boost/signals2/trackable.hpp
+ E:/KinFramework/boost/Source/boost/signals2/variadic_signal.hpp
+ E:/KinFramework/boost/Source/boost/signals2/variadic_slot.hpp
  E:/KinFramework/boost/Source/boost/smart_ptr/allocate_shared_array.hpp
  E:/KinFramework/boost/Source/boost/smart_ptr/bad_weak_ptr.hpp
  E:/KinFramework/boost/Source/boost/smart_ptr/detail/atomic_count.hpp
@@ -1533,6 +1688,7 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/type_traits/is_copy_constructible.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_default_constructible.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_destructible.hpp
+ E:/KinFramework/boost/Source/boost/type_traits/is_empty.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_enum.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_floating_point.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_function.hpp
@@ -1551,6 +1707,7 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/type_traits/is_same.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_scalar.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_signed.hpp
+ E:/KinFramework/boost/Source/boost/type_traits/is_stateless.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_union.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_unsigned.hpp
  E:/KinFramework/boost/Source/boost/type_traits/is_void.hpp
@@ -1566,14 +1723,39 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/boost/Source/boost/type_traits/remove_pointer.hpp
  E:/KinFramework/boost/Source/boost/type_traits/remove_reference.hpp
  E:/KinFramework/boost/Source/boost/type_traits/remove_volatile.hpp
+ E:/KinFramework/boost/Source/boost/type_traits/same_traits.hpp
  E:/KinFramework/boost/Source/boost/type_traits/type_identity.hpp
  E:/KinFramework/boost/Source/boost/type_traits/type_with_alignment.hpp
  E:/KinFramework/boost/Source/boost/utility/addressof.hpp
  E:/KinFramework/boost/Source/boost/utility/compare_pointees.hpp
+ E:/KinFramework/boost/Source/boost/utility/declval.hpp
  E:/KinFramework/boost/Source/boost/utility/detail/result_of_iterate.hpp
  E:/KinFramework/boost/Source/boost/utility/enable_if.hpp
  E:/KinFramework/boost/Source/boost/utility/result_of.hpp
  E:/KinFramework/boost/Source/boost/utility/swap.hpp
+ E:/KinFramework/boost/Source/boost/variant/apply_visitor.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/apply_visitor_binary.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/apply_visitor_delayed.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/apply_visitor_unary.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/backup_holder.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/cast_storage.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/config.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/enable_recursive_fwd.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/forced_return.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/generic_result_type.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/has_result_type.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/hash_variant.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/initializer.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/make_variant_list.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/move.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/over_sequence.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/substitute_fwd.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/variant_io.hpp
+ E:/KinFramework/boost/Source/boost/variant/detail/visitation_impl.hpp
+ E:/KinFramework/boost/Source/boost/variant/recursive_wrapper_fwd.hpp
+ E:/KinFramework/boost/Source/boost/variant/static_visitor.hpp
+ E:/KinFramework/boost/Source/boost/variant/variant.hpp
+ E:/KinFramework/boost/Source/boost/variant/variant_fwd.hpp
  E:/KinFramework/boost/Source/boost/version.hpp
  E:/KinFramework/boost/Source/boost/visit_each.hpp
  E:/KinFramework/boost/Source/boost/weak_ptr.hpp
@@ -1610,6 +1792,7 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/nlohmann/Source/nlohmann/detail/input/json_sax.hpp
  E:/KinFramework/nlohmann/Source/nlohmann/detail/input/lexer.hpp
  E:/KinFramework/nlohmann/Source/nlohmann/detail/input/parser.hpp
+ E:/KinFramework/nlohmann/Source/nlohmann/detail/input/position_t.hpp
  E:/KinFramework/nlohmann/Source/nlohmann/detail/iterators/internal_iterator.hpp
  E:/KinFramework/nlohmann/Source/nlohmann/detail/iterators/iter_impl.hpp
  E:/KinFramework/nlohmann/Source/nlohmann/detail/iterators/iteration_proxy.hpp
@@ -1633,7 +1816,29 @@ Source/Server/CMakeFiles/Server.dir/RCServer.cpp.obj
  E:/KinFramework/spdlog/Source/fmt/bundled/core.h
  E:/KinFramework/spdlog/Source/fmt/bundled/format-inl.h
  E:/KinFramework/spdlog/Source/fmt/bundled/format.h
+ E:/KinFramework/spdlog/Source/fmt/bundled/ostream.h
  E:/KinFramework/spdlog/Source/fmt/fmt.h
+ E:/KinFramework/spdlog/Source/fmt/ostr.h
+ E:/KinFramework/spdlog/Source/spdlog/common.h
+ E:/KinFramework/spdlog/Source/spdlog/details/console_globals.h
+ E:/KinFramework/spdlog/Source/spdlog/details/fmt_helper.h
+ E:/KinFramework/spdlog/Source/spdlog/details/log_msg.h
+ E:/KinFramework/spdlog/Source/spdlog/details/logger_impl.h
+ E:/KinFramework/spdlog/Source/spdlog/details/null_mutex.h
+ E:/KinFramework/spdlog/Source/spdlog/details/os.h
+ E:/KinFramework/spdlog/Source/spdlog/details/pattern_formatter.h
+ E:/KinFramework/spdlog/Source/spdlog/details/periodic_worker.h
+ E:/KinFramework/spdlog/Source/spdlog/details/registry.h
+ E:/KinFramework/spdlog/Source/spdlog/fmt/fmt.h
+ E:/KinFramework/spdlog/Source/spdlog/formatter.h
+ E:/KinFramework/spdlog/Source/spdlog/logger.h
+ E:/KinFramework/spdlog/Source/spdlog/sinks/ansicolor_sink.h
+ E:/KinFramework/spdlog/Source/spdlog/sinks/sink.h
+ E:/KinFramework/spdlog/Source/spdlog/sinks/stdout_color_sinks.h
+ E:/KinFramework/spdlog/Source/spdlog/sinks/wincolor_sink.h
+ E:/KinFramework/spdlog/Source/spdlog/spdlog.h
+ E:/KinFramework/spdlog/Source/spdlog/tweakme.h
+ E:/KinFramework/spdlog/Source/spdlog/version.h
  E:/KinFramework/websocketpp/Source/websocketpp/base64/base64.hpp
  E:/KinFramework/websocketpp/Source/websocketpp/close.hpp
  E:/KinFramework/websocketpp/Source/websocketpp/common/asio.hpp

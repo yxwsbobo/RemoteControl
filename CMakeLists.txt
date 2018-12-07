@@ -8,10 +8,6 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${KinFrameworkPath})
 include(KinCommonSetting)
 
 find_package(KinBase)
-find_package(KinBoost)
-find_package(websocketpp)
-find_package(nlohmann)
-find_package(SystemControl)
 
 link_directories(${PROJECT_SOURCE_DIR}/libs)
 include_directories(${PROJECT_SOURCE_DIR}/include)

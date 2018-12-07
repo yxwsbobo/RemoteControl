@@ -36,6 +36,7 @@ Source/Example/CMakeFiles/ExampleClient.dir/eClient.cpp.obj
  ../include/libswresample/version.h
  ../include/libswscale/swscale.h
  D:/ClionProjects/KinRemoteControl/Source/Client/RCClient.h
+ D:/ClionProjects/KinRemoteControl/Source/Client/RunningTC.h
  D:/ClionProjects/KinRemoteControl/Source/CommonStruct/CommonDefine.h
  D:/ClionProjects/KinRemoteControl/Source/Example/eClient.cpp
  E:/KinFramework/KinBase/Source/KinBase/BetterEnum.h
