@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/webTest/webffmpeg/Source/Example/WapFFmpeg.cpp" "D:/webTest/webffmpeg/embuild/Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o"
-  "D:/webTest/webffmpeg/Source/Example/WapSdl.cpp" "D:/webTest/webffmpeg/embuild/Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o"
-  "D:/webTest/webffmpeg/Source/Example/main.cpp" "D:/webTest/webffmpeg/embuild/Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o"
+  "D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapFFmpeg.cpp" "D:/ClionProjects/KinRemoteControl/Source/webcode/embuild/Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o"
+  "D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapSdl.cpp" "D:/ClionProjects/KinRemoteControl/Source/webcode/embuild/Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o"
+  "D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/main.cpp" "D:/ClionProjects/KinRemoteControl/Source/webcode/embuild/Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -17,7 +17,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/webTest/webffmpeg/embuild/Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/DependInfo.cmake"
+  "D:/ClionProjects/KinRemoteControl/Source/webcode/embuild/Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

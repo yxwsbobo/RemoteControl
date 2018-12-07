@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/webTest/webffmpeg/embuild/InnerScript_js_tracker.c" "D:/webTest/webffmpeg/embuild/Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o"
+  "D:/ClionProjects/KinRemoteControl/Source/webcode/embuild/InnerScript_js_tracker.c" "D:/ClionProjects/KinRemoteControl/Source/webcode/embuild/Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

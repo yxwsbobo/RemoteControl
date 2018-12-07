@@ -274,6 +274,12 @@ Server_BINARY_DIR:STATIC=D:/ClionProjects/KinRemoteControl/cmake-build-debug/Sou
 //Value Computed by CMake
 Server_SOURCE_DIR:STATIC=D:/ClionProjects/KinRemoteControl/Source/Server
 
+//Value Computed by CMake
+webffmpeg_BINARY_DIR:STATIC=D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/webcode
+
+//Value Computed by CMake
+webffmpeg_SOURCE_DIR:STATIC=D:/ClionProjects/KinRemoteControl/Source/webcode
+
 
 ########################
 # INTERNAL cache entries
@@ -383,7 +389,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

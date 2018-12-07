@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\webTest\webffmpeg
+CMAKE_SOURCE_DIR = D:\ClionProjects\KinRemoteControl\Source\webcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\webTest\webffmpeg\embuild
+CMAKE_BINARY_DIR = D:\ClionProjects\KinRemoteControl\Source\webcode\embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\webTest\webffmpeg\embuild && $(CMAKE_COMMAND) -E cmake_progress_start D:\webTest\webffmpeg\embuild\CMakeFiles D:\webTest\webffmpeg\embuild\Source\Example\CMakeFiles\progress.marks
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\webTest\webffmpeg\embuild\CMakeFiles 0
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example\CMakeFiles\progress.marks
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/clean
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/preinstall
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/preinstall
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\webTest\webffmpeg\embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Source/Example/CMakeFiles/webffmpeg.dir/rule:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/CMakeFiles/webffmpeg.dir/rule
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/CMakeFiles/webffmpeg.dir/rule
 .PHONY : Source/Example/CMakeFiles/webffmpeg.dir/rule
 
 # Convenience name for target.
@@ -121,12 +121,12 @@ webffmpeg: Source/Example/CMakeFiles/webffmpeg.dir/rule
 
 # fast build rule for target.
 webffmpeg/fast:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/build
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/build
 .PHONY : webffmpeg/fast
 
 # Convenience name for target.
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/rule:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/rule
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f CMakeFiles\Makefile2 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/rule
 .PHONY : Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/rule
 
 # Convenience name for target.
@@ -136,7 +136,7 @@ webffmpeg_1_InnerScript_js: Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js
 
 # fast build rule for target.
 webffmpeg_1_InnerScript_js/fast:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\build.make Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/build
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\build.make Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/build
 .PHONY : webffmpeg_1_InnerScript_js/fast
 
 WapFFmpeg.o: WapFFmpeg.cpp.o
@@ -145,7 +145,7 @@ WapFFmpeg.o: WapFFmpeg.cpp.o
 
 # target to build an object file
 WapFFmpeg.cpp.o:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o
 .PHONY : WapFFmpeg.cpp.o
 
 WapFFmpeg.i: WapFFmpeg.cpp.i
@@ -154,7 +154,7 @@ WapFFmpeg.i: WapFFmpeg.cpp.i
 
 # target to preprocess a source file
 WapFFmpeg.cpp.i:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.i
 .PHONY : WapFFmpeg.cpp.i
 
 WapFFmpeg.s: WapFFmpeg.cpp.s
@@ -163,7 +163,7 @@ WapFFmpeg.s: WapFFmpeg.cpp.s
 
 # target to generate assembly for a file
 WapFFmpeg.cpp.s:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.s
 .PHONY : WapFFmpeg.cpp.s
 
 WapSdl.o: WapSdl.cpp.o
@@ -172,7 +172,7 @@ WapSdl.o: WapSdl.cpp.o
 
 # target to build an object file
 WapSdl.cpp.o:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o
 .PHONY : WapSdl.cpp.o
 
 WapSdl.i: WapSdl.cpp.i
@@ -181,7 +181,7 @@ WapSdl.i: WapSdl.cpp.i
 
 # target to preprocess a source file
 WapSdl.cpp.i:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.i
 .PHONY : WapSdl.cpp.i
 
 WapSdl.s: WapSdl.cpp.s
@@ -190,7 +190,7 @@ WapSdl.s: WapSdl.cpp.s
 
 # target to generate assembly for a file
 WapSdl.cpp.s:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.s
 .PHONY : WapSdl.cpp.s
 
 __/__/InnerScript_js_tracker.o: __/__/InnerScript_js_tracker.c.o
@@ -199,7 +199,7 @@ __/__/InnerScript_js_tracker.o: __/__/InnerScript_js_tracker.c.o
 
 # target to build an object file
 __/__/InnerScript_js_tracker.c.o:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\build.make Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\build.make Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o
 .PHONY : __/__/InnerScript_js_tracker.c.o
 
 __/__/InnerScript_js_tracker.i: __/__/InnerScript_js_tracker.c.i
@@ -208,7 +208,7 @@ __/__/InnerScript_js_tracker.i: __/__/InnerScript_js_tracker.c.i
 
 # target to preprocess a source file
 __/__/InnerScript_js_tracker.c.i:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\build.make Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.i
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\build.make Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.i
 .PHONY : __/__/InnerScript_js_tracker.c.i
 
 __/__/InnerScript_js_tracker.s: __/__/InnerScript_js_tracker.c.s
@@ -217,7 +217,7 @@ __/__/InnerScript_js_tracker.s: __/__/InnerScript_js_tracker.c.s
 
 # target to generate assembly for a file
 __/__/InnerScript_js_tracker.c.s:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\build.make Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.s
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\build.make Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.s
 .PHONY : __/__/InnerScript_js_tracker.c.s
 
 main.o: main.cpp.o
@@ -226,7 +226,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -235,7 +235,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -244,7 +244,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d D:\webTest\webffmpeg\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(MAKE) -f Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\webTest\webffmpeg\embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -38,6 +38,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Source/Example/CMakeLists.txt"
   "../Source/RCMaster/CMakeLists.txt"
   "../Source/Server/CMakeLists.txt"
+  "../Source/webcode/CMakeLists.txt"
+  "../Source/webcode/Source/CMakeLists.txt"
+  "../Source/webcode/Source/Example/CMakeLists.txt"
   "CMakeFiles/3.12.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.12.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.12.3/CMakeRCCompiler.cmake"
@@ -67,6 +70,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Source/Client/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Source/Example/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Source/RCMaster/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Source/webcode/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Source/webcode/Source/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Source/webcode/Source/Example/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -78,4 +84,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Source/Example/CMakeFiles/ExampleServer.dir/DependInfo.cmake"
   "Source/Example/CMakeFiles/ExampleMaster.dir/DependInfo.cmake"
   "Source/RCMaster/CMakeFiles/RCMaster.dir/DependInfo.cmake"
+  "Source/webcode/Source/Example/CMakeFiles/webffmpeg.dir/DependInfo.cmake"
   )

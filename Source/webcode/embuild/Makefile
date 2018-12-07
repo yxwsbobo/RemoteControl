@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\webTest\webffmpeg
+CMAKE_SOURCE_DIR = D:\ClionProjects\KinRemoteControl\Source\webcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\webTest\webffmpeg\embuild
+CMAKE_BINARY_DIR = D:\ClionProjects\KinRemoteControl\Source\webcode\embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\webTest\webffmpeg\embuild\CMakeFiles D:\webTest\webffmpeg\embuild\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\webTest\webffmpeg\embuild\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

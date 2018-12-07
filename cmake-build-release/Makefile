@@ -200,6 +200,19 @@ RCMaster/fast:
 	$(MAKE) -f Source\RCMaster\CMakeFiles\RCMaster.dir\build.make Source/RCMaster/CMakeFiles/RCMaster.dir/build
 .PHONY : RCMaster/fast
 
+#=============================================================================
+# Target rules for targets named webffmpeg
+
+# Build rule for target.
+webffmpeg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 webffmpeg
+.PHONY : webffmpeg
+
+# fast build rule for target.
+webffmpeg/fast:
+	$(MAKE) -f Source\webcode\Source\Example\CMakeFiles\webffmpeg.dir\build.make Source/webcode/Source/Example/CMakeFiles/webffmpeg.dir/build
+.PHONY : webffmpeg/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,6 +228,7 @@ help:
 	@echo ... ExampleServer
 	@echo ... ExampleMaster
 	@echo ... RCMaster
+	@echo ... webffmpeg
 .PHONY : help
 
 

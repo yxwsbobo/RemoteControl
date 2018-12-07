@@ -25,11 +25,11 @@ Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o
  ../Source/libavutil/samplefmt.h
  ../Source/libavutil/version.h
  ../Source/libswscale/swscale.h
- D:/webTest/webffmpeg/Source/Example/WapFFmpeg.cpp
- D:/webTest/webffmpeg/Source/Example/WapFFmpeg.h
+ D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapFFmpeg.cpp
+ D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapFFmpeg.h
 Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o
- D:/webTest/webffmpeg/Source/Example/WapSdl.cpp
- D:/webTest/webffmpeg/Source/Example/WapSdl.h
+ D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapSdl.cpp
+ D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapSdl.h
 Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o
  ../Source/libavcodec/avcodec.h
  ../Source/libavcodec/version.h
@@ -54,7 +54,7 @@ Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o
  ../Source/libavutil/samplefmt.h
  ../Source/libavutil/version.h
  ../Source/libswscale/swscale.h
- D:/webTest/webffmpeg/Source/Example/JsFunctions.h
- D:/webTest/webffmpeg/Source/Example/WapFFmpeg.h
- D:/webTest/webffmpeg/Source/Example/WapSdl.h
- D:/webTest/webffmpeg/Source/Example/main.cpp
+ D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/JsFunctions.h
+ D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapFFmpeg.h
+ D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapSdl.h
+ D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/main.cpp

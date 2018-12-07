@@ -1,0 +1,1 @@
+ -LE:/KinFramework/boost/bin/GNU/Debug  -LD:/ClionProjects/KinRemoteControl/libs  -LD:/ClionProjects/KinRemoteControl/Source/webcode/libs -llibavcodec -llibavutil -llibswscale -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

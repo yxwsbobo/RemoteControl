@@ -1,4 +1,4 @@
-# Install script for directory: D:/webTest/webffmpeg/Source/Example
+# Install script for directory: D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

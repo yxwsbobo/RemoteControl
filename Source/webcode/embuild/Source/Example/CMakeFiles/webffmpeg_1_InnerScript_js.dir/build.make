@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\webTest\webffmpeg
+CMAKE_SOURCE_DIR = D:\ClionProjects\KinRemoteControl\Source\webcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\webTest\webffmpeg\embuild
+CMAKE_BINARY_DIR = D:\ClionProjects\KinRemoteControl\Source\webcode\embuild
 
 # Include any dependencies generated for this target.
 include Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/depend.make
@@ -57,22 +57,22 @@ include Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/progress.make
 include Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/flags.make
 
 InnerScript_js_tracker.c: ../Source/Example/InnerScript.js
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\webTest\webffmpeg\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../InnerScript_js_tracker.c"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/webTest/webffmpeg/embuild/InnerScript_js_tracker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../InnerScript_js_tracker.c"
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ClionProjects/KinRemoteControl/Source/webcode/embuild/InnerScript_js_tracker.c
 
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o: Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/flags.make
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o: Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/includes_C.rsp
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o: InnerScript_js_tracker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\webTest\webffmpeg\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\emcc.bat $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\webffmpeg_1_InnerScript_js.dir\__\__\InnerScript_js_tracker.c.o   -c D:\webTest\webffmpeg\embuild\InnerScript_js_tracker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.o"
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\emcc.bat $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\webffmpeg_1_InnerScript_js.dir\__\__\InnerScript_js_tracker.c.o   -c D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\InnerScript_js_tracker.c
 
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.i"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\emcc.bat $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\webTest\webffmpeg\embuild\InnerScript_js_tracker.c > CMakeFiles\webffmpeg_1_InnerScript_js.dir\__\__\InnerScript_js_tracker.c.i
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\emcc.bat $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\InnerScript_js_tracker.c > CMakeFiles\webffmpeg_1_InnerScript_js.dir\__\__\InnerScript_js_tracker.c.i
 
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/webffmpeg_1_InnerScript_js.dir/__/__/InnerScript_js_tracker.c.s"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\emcc.bat $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\webTest\webffmpeg\embuild\InnerScript_js_tracker.c -o CMakeFiles\webffmpeg_1_InnerScript_js.dir\__\__\InnerScript_js_tracker.c.s
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\emcc.bat $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\InnerScript_js_tracker.c -o CMakeFiles\webffmpeg_1_InnerScript_js.dir\__\__\InnerScript_js_tracker.c.s
 
 # Object files for target webffmpeg_1_InnerScript_js
 webffmpeg_1_InnerScript_js_OBJECTS = \
@@ -85,9 +85,9 @@ webffmpeg_1_InnerScript_js_EXTERNAL_OBJECTS =
 ../bin/libwebffmpeg_1_InnerScript_js.a: Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/build.make
 ../bin/libwebffmpeg_1_InnerScript_js.a: Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/objects1.rsp
 ../bin/libwebffmpeg_1_InnerScript_js.a: Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\webTest\webffmpeg\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library ..\..\..\bin\libwebffmpeg_1_InnerScript_js.a"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && $(CMAKE_COMMAND) -P CMakeFiles\webffmpeg_1_InnerScript_js.dir\cmake_clean_target.cmake
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\webffmpeg_1_InnerScript_js.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library ..\..\..\bin\libwebffmpeg_1_InnerScript_js.a"
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && $(CMAKE_COMMAND) -P CMakeFiles\webffmpeg_1_InnerScript_js.dir\cmake_clean_target.cmake
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\webffmpeg_1_InnerScript_js.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/build: ../bin/libwebffmpeg_1_InnerScript_js.a
@@ -95,10 +95,10 @@ Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/build: ../bin/libwebffm
 .PHONY : Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/build
 
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/clean:
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && $(CMAKE_COMMAND) -P CMakeFiles\webffmpeg_1_InnerScript_js.dir\cmake_clean.cmake
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && $(CMAKE_COMMAND) -P CMakeFiles\webffmpeg_1_InnerScript_js.dir\cmake_clean.cmake
 .PHONY : Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/clean
 
 Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/depend: InnerScript_js_tracker.c
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\webTest\webffmpeg D:\webTest\webffmpeg\Source\Example D:\webTest\webffmpeg\embuild D:\webTest\webffmpeg\embuild\Source\Example D:\webTest\webffmpeg\embuild\Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\ClionProjects\KinRemoteControl\Source\webcode D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example D:\ClionProjects\KinRemoteControl\Source\webcode\embuild D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example\CMakeFiles\webffmpeg_1_InnerScript_js.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : Source/Example/CMakeFiles/webffmpeg_1_InnerScript_js.dir/depend
 

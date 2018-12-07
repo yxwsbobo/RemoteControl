@@ -234,15 +234,15 @@ libavutil/pixfmt.h
 version.h
 ../Source/libswscale/version.h
 
-D:/webTest/webffmpeg/Source/Example/JsFunctions.h
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/JsFunctions.h
 
-D:/webTest/webffmpeg/Source/Example/WapFFmpeg.cpp
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapFFmpeg.cpp
 WapFFmpeg.h
-D:/webTest/webffmpeg/Source/Example/WapFFmpeg.h
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapFFmpeg.h
 iostream
 -
 
-D:/webTest/webffmpeg/Source/Example/WapFFmpeg.h
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapFFmpeg.h
 libavcodec/avcodec.h
 -
 libswscale/swscale.h
@@ -250,25 +250,25 @@ libswscale/swscale.h
 string
 -
 
-D:/webTest/webffmpeg/Source/Example/WapSdl.cpp
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapSdl.cpp
 WapSdl.h
-D:/webTest/webffmpeg/Source/Example/WapSdl.h
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapSdl.h
 emscripten.h
 -
 iostream
 -
 
-D:/webTest/webffmpeg/Source/Example/WapSdl.h
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapSdl.h
 SDL2/SDL.h
 -
 
-D:/webTest/webffmpeg/Source/Example/main.cpp
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/main.cpp
 JsFunctions.h
-D:/webTest/webffmpeg/Source/Example/JsFunctions.h
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/JsFunctions.h
 WapFFmpeg.h
-D:/webTest/webffmpeg/Source/Example/WapFFmpeg.h
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapFFmpeg.h
 WapSdl.h
-D:/webTest/webffmpeg/Source/Example/WapSdl.h
+D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/WapSdl.h
 thread
 -
 chrono

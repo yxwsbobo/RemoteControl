@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\webTest\webffmpeg
+CMAKE_SOURCE_DIR = D:\ClionProjects\KinRemoteControl\Source\webcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\webTest\webffmpeg\embuild
+CMAKE_BINARY_DIR = D:\ClionProjects\KinRemoteControl\Source\webcode\embuild
 
 # Include any dependencies generated for this target.
 include Source/Example/CMakeFiles/webffmpeg.dir/depend.make
@@ -59,44 +59,44 @@ include Source/Example/CMakeFiles/webffmpeg.dir/flags.make
 Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o: Source/Example/CMakeFiles/webffmpeg.dir/flags.make
 Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o: Source/Example/CMakeFiles/webffmpeg.dir/includes_CXX.rsp
 Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o: ../Source/Example/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\webTest\webffmpeg\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\webffmpeg.dir\main.cpp.o -c D:\webTest\webffmpeg\Source\Example\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.o"
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\webffmpeg.dir\main.cpp.o -c D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\main.cpp
 
 Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webffmpeg.dir/main.cpp.i"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\webTest\webffmpeg\Source\Example\main.cpp > CMakeFiles\webffmpeg.dir\main.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\main.cpp > CMakeFiles\webffmpeg.dir\main.cpp.i
 
 Source/Example/CMakeFiles/webffmpeg.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webffmpeg.dir/main.cpp.s"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\webTest\webffmpeg\Source\Example\main.cpp -o CMakeFiles\webffmpeg.dir\main.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\main.cpp -o CMakeFiles\webffmpeg.dir\main.cpp.s
 
 Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o: Source/Example/CMakeFiles/webffmpeg.dir/flags.make
 Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o: Source/Example/CMakeFiles/webffmpeg.dir/includes_CXX.rsp
 Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o: ../Source/Example/WapSdl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\webTest\webffmpeg\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\webffmpeg.dir\WapSdl.cpp.o -c D:\webTest\webffmpeg\Source\Example\WapSdl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.o"
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\webffmpeg.dir\WapSdl.cpp.o -c D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\WapSdl.cpp
 
 Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webffmpeg.dir/WapSdl.cpp.i"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\webTest\webffmpeg\Source\Example\WapSdl.cpp > CMakeFiles\webffmpeg.dir\WapSdl.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\WapSdl.cpp > CMakeFiles\webffmpeg.dir\WapSdl.cpp.i
 
 Source/Example/CMakeFiles/webffmpeg.dir/WapSdl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webffmpeg.dir/WapSdl.cpp.s"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\webTest\webffmpeg\Source\Example\WapSdl.cpp -o CMakeFiles\webffmpeg.dir\WapSdl.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\WapSdl.cpp -o CMakeFiles\webffmpeg.dir\WapSdl.cpp.s
 
 Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o: Source/Example/CMakeFiles/webffmpeg.dir/flags.make
 Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o: Source/Example/CMakeFiles/webffmpeg.dir/includes_CXX.rsp
 Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o: ../Source/Example/WapFFmpeg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\webTest\webffmpeg\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\webffmpeg.dir\WapFFmpeg.cpp.o -c D:\webTest\webffmpeg\Source\Example\WapFFmpeg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.o"
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\webffmpeg.dir\WapFFmpeg.cpp.o -c D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\WapFFmpeg.cpp
 
 Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.i"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\webTest\webffmpeg\Source\Example\WapFFmpeg.cpp > CMakeFiles\webffmpeg.dir\WapFFmpeg.cpp.i
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\WapFFmpeg.cpp > CMakeFiles\webffmpeg.dir\WapFFmpeg.cpp.i
 
 Source/Example/CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webffmpeg.dir/WapFFmpeg.cpp.s"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\webTest\webffmpeg\Source\Example\WapFFmpeg.cpp -o CMakeFiles\webffmpeg.dir\WapFFmpeg.cpp.s
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example\WapFFmpeg.cpp -o CMakeFiles\webffmpeg.dir\WapFFmpeg.cpp.s
 
 # Object files for target webffmpeg
 webffmpeg_OBJECTS = \
@@ -115,9 +115,9 @@ webffmpeg_EXTERNAL_OBJECTS =
 ../bin/webffmpeg.html: Source/Example/CMakeFiles/webffmpeg.dir/linklibs.rsp
 ../bin/webffmpeg.html: Source/Example/CMakeFiles/webffmpeg.dir/objects1.rsp
 ../bin/webffmpeg.html: Source/Example/CMakeFiles/webffmpeg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\webTest\webffmpeg\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ..\..\..\bin\webffmpeg.html"
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/webTest/webffmpeg/Source/Example/DependJs/ D:/webTest/webffmpeg/bin
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\webffmpeg.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ..\..\..\bin\webffmpeg.html"
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/DependJs/ D:/ClionProjects/KinRemoteControl/Source/webcode/bin
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\webffmpeg.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Source/Example/CMakeFiles/webffmpeg.dir/build: ../bin/webffmpeg.html
@@ -125,10 +125,10 @@ Source/Example/CMakeFiles/webffmpeg.dir/build: ../bin/webffmpeg.html
 .PHONY : Source/Example/CMakeFiles/webffmpeg.dir/build
 
 Source/Example/CMakeFiles/webffmpeg.dir/clean:
-	cd /d D:\webTest\webffmpeg\embuild\Source\Example && $(CMAKE_COMMAND) -P CMakeFiles\webffmpeg.dir\cmake_clean.cmake
+	cd /d D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example && $(CMAKE_COMMAND) -P CMakeFiles\webffmpeg.dir\cmake_clean.cmake
 .PHONY : Source/Example/CMakeFiles/webffmpeg.dir/clean
 
 Source/Example/CMakeFiles/webffmpeg.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\webTest\webffmpeg D:\webTest\webffmpeg\Source\Example D:\webTest\webffmpeg\embuild D:\webTest\webffmpeg\embuild\Source\Example D:\webTest\webffmpeg\embuild\Source\Example\CMakeFiles\webffmpeg.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\ClionProjects\KinRemoteControl\Source\webcode D:\ClionProjects\KinRemoteControl\Source\webcode\Source\Example D:\ClionProjects\KinRemoteControl\Source\webcode\embuild D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example D:\ClionProjects\KinRemoteControl\Source\webcode\embuild\Source\Example\CMakeFiles\webffmpeg.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : Source/Example/CMakeFiles/webffmpeg.dir/depend
 

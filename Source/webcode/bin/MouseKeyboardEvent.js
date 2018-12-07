@@ -21,20 +21,12 @@ function BuildMouseInfo(e,element,mType) {
 
     if(data.type === "MiddleButtonWheel")
     {
-        if(e.deltaY > 0)
+        data.info = parseInt(e.wheelDeltaY);
+        if(!data.info)
         {
-            data.info = parseInt(-120);
+            // data.info =
         }
-        else if(e.deltaY < 0)
-        {
-            data.info = parseInt(120);
-        }
-        else
-        {
-            console.log("deltaY unknown");
-        }
-        
-        console.log(e);
+        console.log(Msg);
     }
 
     Msg.data = data;

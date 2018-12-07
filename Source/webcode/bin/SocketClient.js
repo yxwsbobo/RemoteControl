@@ -14,7 +14,7 @@ function GetVideoInfo() {
     let Info = {};
     Info.width = 1280;
     Info.height = 720;
-    Info.bitRate = 4000000;
+    Info.bitRate = 2000000;
     Info.frameRate = 20;
     return Info;
 }

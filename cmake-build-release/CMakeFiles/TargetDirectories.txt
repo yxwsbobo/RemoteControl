@@ -19,3 +19,10 @@ D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/Example/CMakeFiles/
 D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/RCMaster/CMakeFiles/edit_cache.dir
 D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/RCMaster/CMakeFiles/RCMaster.dir
 D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/RCMaster/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/webcode/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/webcode/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/webcode/Source/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/webcode/Source/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/webcode/Source/Example/CMakeFiles/webffmpeg.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/webcode/Source/Example/CMakeFiles/edit_cache.dir
+D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/webcode/Source/Example/CMakeFiles/rebuild_cache.dir
