@@ -5,7 +5,7 @@
 		<Option title="Server"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Source\;CMake Files\Source\Client\;CMake Files\Source\CommonStruct\;CMake Files\Source\Example\;CMake Files\Source\Server\;CMake Files\Source\RCMaster\;CMake Files\Source\webcode\;CMake Files\Source\webcode\Source\;CMake Files\Source\webcode\Source\Example\;CMake Files\KinFramework\;CMake Files\KinFramework\SystemControl\;CMake Files\KinFramework\nlohmann\;CMake Files\KinFramework\boost\;CMake Files\KinFramework\websocketpp\;CMake Files\KinFramework\KinBase\;CMake Files\KinFramework\spdlog\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Source\;CMake Files\Source\Client\;CMake Files\Source\CommonStruct\;CMake Files\Source\Example\;CMake Files\Source\Server\;CMake Files\Source\RCMaster\;CMake Files\KinFramework\;CMake Files\KinFramework\SystemControl\;CMake Files\KinFramework\nlohmann\;CMake Files\KinFramework\boost\;CMake Files\KinFramework\websocketpp\;CMake Files\KinFramework\KinBase\;CMake Files\KinFramework\spdlog\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/ClionProjects/KinRemoteControl/cmake-build-release/Source/Server"/>
@@ -98,15 +98,6 @@
 		</Unit>
 		<Unit filename="D:/ClionProjects/KinRemoteControl/Source/RCMaster/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Source\RCMaster\"/>
-		</Unit>
-		<Unit filename="D:/ClionProjects/KinRemoteControl/Source/webcode/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Source\webcode\"/>
-		</Unit>
-		<Unit filename="D:/ClionProjects/KinRemoteControl/Source/webcode/Source/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Source\webcode\Source\"/>
-		</Unit>
-		<Unit filename="D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Source\webcode\Source\Example\"/>
 		</Unit>
 		<Unit filename="D:/ClionProjects/KinRemoteControl/KinFramework/KinCommonFunction.cmake">
 			<Option virtualFolder="CMake Files\KinFramework\"/>

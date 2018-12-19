@@ -1,1 +1,0 @@
-E:\Emscripten\emsdk\emscripten\1.38.13\em++.bat   -O2 -s TOTAL_MEMORY=67108864 -s ALLOW_MEMORY_GROWTH=1 -s USE_SDL=2 -s USE_WEBGL2=1 --shell-file D:/ClionProjects/KinRemoteControl/Source/webcode/Source/Example/ShellIndex.html   @CMakeFiles\webffmpeg.dir\objects1.rsp  -o ..\..\..\bin\webffmpeg.html @CMakeFiles\webffmpeg.dir\linklibs.rsp

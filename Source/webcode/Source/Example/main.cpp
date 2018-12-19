@@ -12,6 +12,7 @@
 #include <iostream>
 #include <emscripten.h>
 
+
 webffmpeg::WapFFmpeg *wapFFmpeg;
 webffmpeg::WapSdl *wapSdl;
 
@@ -80,7 +81,6 @@ void ReferenceFunctionName()
 
 int main()
 {
-
     VideoBuffer = (int*)new char[1024*1024];
     if(VideoBuffer == nullptr)
     {

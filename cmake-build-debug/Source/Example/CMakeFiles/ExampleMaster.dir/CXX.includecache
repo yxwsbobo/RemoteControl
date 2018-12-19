@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+D:/ClionProjects/KinRemoteControl/Source/Example/eMaster.cpp
+string
+-
+iostream
+-
+../RCMaster/RCMaster.h
+D:/ClionProjects/KinRemoteControl/Source/RCMaster/RCMaster.h
+
+D:/ClionProjects/KinRemoteControl/Source/RCMaster/RCMaster.h
+string
+-
+

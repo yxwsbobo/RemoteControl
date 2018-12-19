@@ -39,7 +39,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Client/cmake_install.cmake")
   include("D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/Example/cmake_install.cmake")
   include("D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/RCMaster/cmake_install.cmake")
-  include("D:/ClionProjects/KinRemoteControl/cmake-build-debug/Source/webcode/cmake_install.cmake")
 
 endif()
 
