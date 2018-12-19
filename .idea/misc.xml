@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/Source/Client" />
+      <file path="$PROJECT_DIR$/Source/CommonStruct" />
+      <file path="$PROJECT_DIR$/Source/Example" />
+      <file path="$PROJECT_DIR$/Source/RCMaster" />
+      <file path="$PROJECT_DIR$/Source/Server" />
+    </sourceRoots>
+    <libraryRoots>
+      <file path="$PROJECT_DIR$/libs" />
+    </libraryRoots>
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/Source/webcode" />
+    </excludeRoots>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+</project>
