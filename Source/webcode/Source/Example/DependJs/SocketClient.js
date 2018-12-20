@@ -6,17 +6,7 @@ MasterInfo.Connected = 0;
 
 function StartInit()
 {
-    let canvasVideo = document.getElementById("canvas");
-    canvasVideo.tabIndex = 1000;
-}
 
-function GetVideoInfo() {
-    let Info = {};
-    Info.width = 1280;
-    Info.height = 720;
-    Info.bitRate = 2000000;
-    Info.frameRate = 20;
-    return Info;
 }
 
 function ControlRemote(cName, VideoInfo) {
@@ -27,6 +17,9 @@ function ControlRemote(cName, VideoInfo) {
         Msg.type = "ControlMachine";
         Msg.data = VideoInfo;
         Msg.data.name = cName;
+
+        _InitScreen(VideoInfo.width,VideoInfo.height);
+        _InitVideo(VideoInfo.width,VideoInfo.height);
 
         MasterInfo.SocketClient.send(JSON.stringify(Msg));
     };
@@ -56,7 +49,7 @@ function StopControl(callBack) {
 }
 
 function SocketConnect() {
-    MasterInfo.SocketClient = new WebSocket("ws://" + window.location.host + ":5656");
+    MasterInfo.SocketClient = new WebSocket("ws://" + RCConfigure.ServerIp + ":" + RCConfigure.ServerPort);
 
     MasterInfo.SocketClient.binaryType = "arraybuffer";
 
@@ -67,8 +60,6 @@ function SocketConnect() {
         MasterInfo.SocketClient.send(JSON.stringify({type: "RegistMaster"}));
         RefreshControlledList();
         _OnSocketConnected();
-
-
     };
 
     MasterInfo.SocketClient.onclose = ()=> {
@@ -122,7 +113,7 @@ function FillControlledList(ItemLists){
         mList.remove(0);
     }
 
-    let VideoInfo = GetVideoInfo();
+    let VideoInfo = RCConfigure.VideoInfo;
 
     for (const mItem of ItemLists) {
         let nItem = document.createElement("option");
@@ -140,7 +131,7 @@ function ControlledListChanged(name, state) {
     {
         let nItem = document.createElement("option");
         nItem.text = name;
-        nItem.onclick = ()=> ControlRemote(name,GetVideoInfo());
+        nItem.onclick = ()=> ControlRemote(name,RCConfigure.VideoInfo);
         mList.add(nItem);
     }
     else
@@ -153,12 +144,4 @@ function ControlledListChanged(name, state) {
             }
         }
     }
-    // if(mList.length == 0)
-    // {
-    //   document.getElementById("MachineLists").hidden();
-    // }
-    // else
-    // {
-    //   document.getElementById("MachineLists")
-    // }
 }

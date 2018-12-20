@@ -45,6 +45,7 @@
         }
 
     </style>
+    <script src="RCConfigure.js"></script>
     <script src="SocketClient.js"></script>
     <script src="MouseKeyboardEvent.js"></script>
 </head>
@@ -58,15 +59,17 @@
 <div class="emscripten">
     <progress value="0" max="100" id="progress" hidden=1></progress>
 </div>
-<div class="emscripten_border">
-    <canvas class="emscripten" id="canvas"
-            Focusable="True"
-            onmousemove="mmevent(event,this)"
-            onmousedown="mdevent(event,this)"
-            onmouseup="muevent(event,this)"
-            onwheel="mwevent(event,this)"
-            oncontextmenu="event.preventDefault()"></canvas>
+<div id = "wapcanvasdiv">
+    <div class="emscripten_border">
+        <canvas class="emscripten" id="canvas"
+                onmousemove="mmevent(event,this)"
+                onmousedown="mdevent(event,this)"
+                onmouseup="muevent(event,this)"
+                onwheel="mwevent(event,this)"
+                oncontextmenu="event.preventDefault()"></canvas>
+    </div>
 </div>
+
 <hr/>
 <div class="emscripten">
     <input type="checkbox" id="resize">Resize canvas
@@ -84,10 +87,12 @@
     var progressElement = document.getElementById('progress');
     var spinnerElement = document.getElementById('spinner');
 
-    document.onkeydown = function (e) {
+    document.getElementById("wapcanvasdiv").tabIndex = 1000;
+
+    document.getElementById("wapcanvasdiv").onkeydown = function (e) {
         kdevent(e);
     };
-    document.onkeyup = function (e) {
+    document.getElementById("wapcanvasdiv").onkeyup = function (e) {
         kuevent(e)
     };
 

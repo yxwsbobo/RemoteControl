@@ -3,12 +3,6 @@ project(webffmpeg)
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_path(KinFrameworkPath KinCommonSetting.cmake)
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${KinFrameworkPath})
-#include(KinCommonSetting)
-
-#find_package(KinBase)
-
 if (DEFINED EMSCRIPTEN_VERSION)
     set(USE_EMSDK 1)
 endif ()
